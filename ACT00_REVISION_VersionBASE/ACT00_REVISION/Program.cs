@@ -1,4 +1,5 @@
 ﻿using System;
+using static ACT00_REVISION.MethodesDuProjet;
 
 namespace ACT00_REVISION
 {
@@ -9,7 +10,12 @@ namespace ACT00_REVISION
             // déclaration des variables.... COMPLETER AVEC CE QUI MANQUE
 
             string rep;
-            
+            string methode;
+            string infos;
+
+            double a = 0;
+            double b = 0;
+            double c = 0;
             double c1 = 0;
             double c2 = 0;
             double c3 = 0;
@@ -21,17 +27,27 @@ namespace ACT00_REVISION
             //On recommence tant que désiré
             do
             {
+                Console.WriteLine("Entrez la valeur du coté 1");
+                double.TryParse(Console.ReadLine(), out a);
+                Console.WriteLine("Entrez la valeur du coté 2");
+                double.TryParse(Console.ReadLine(), out b);
+                Console.WriteLine("Entrez la valeur du coté 3");
+                double.TryParse(Console.ReadLine(), out c);
                 //lecture des 3 côtés
                 // ...
                 // ...
                 // ...
 
                 // ordonner les côtés => APPEL ORDONNECOTES
+                MethodesDuProjet.OrdonneCotes(ref a,ref b,ref c);
+
+
                 // ...
                 // série de test (voir consignes)
-                if (// on a un triangle...)
+                if (MethodesDuProjet.Triangle(a,b,c))
                 {
                     // préparation et affichage du résultat du test 'triangle' avec la procédure 'Affiche'
+                    MethodesDuProjet.Affiche("");
                     // ...
                     // ...
 

@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static ACT00_REVISION.Program;
 
 namespace ACT00_REVISION
 { // écrire les signatures des procédures et fonctions...
     class MethodesDuProjet
     {
         // Procédure qui permet de préparer un string 'infos' montrant l'état du triangle selon les situations 'methode' et un booléen 'ok'
-        public void Affiche()//nommée Affiche
+        public void Affiche(string methode)//nommée Affiche
         {
             string verbe;
             string infos = "";
@@ -41,13 +42,14 @@ namespace ACT00_REVISION
             }
         }
         // fonction qui calcule la longueur de l'hypothénuse à partir de 2 cotés de type double
-        public // ... nommée Hypo
+        public double Hypo(double x, double y)// ... nommée Hypo
         {
             double z = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
             return z;
         }
+
         // fonction qui permet de déterminer si oui ou non un triangle est rectangle en se basant sur ses 3 côtés
-        public // nommée TriangleRectangle
+        public bool TriangleRectangle(double a, double b, double c)// nommée TriangleRectangle
         {
             bool ok = false;
             double hypothenuse = Hypo(b, c);
@@ -55,11 +57,13 @@ namespace ACT00_REVISION
             {
                 ok = true;
             }
+
+            return ok;
             //.... complétez avec ce qui manque logiquement
         }
         // procédure qui permet de classer les cotés : on choisi de mettre dans 'a' le plus grand des cotés
         // les 2 côtés sont modifiés par la procédure
-        public // nommée ... OrdonneCotes
+        public void OrdonneCotes(ref double a, ref double b, ref double c)// nommée ... OrdonneCotes
         {
             double temp;
 
@@ -77,7 +81,7 @@ namespace ACT00_REVISION
             }
         }
         // fonction booléenne qui détermine si on a un triangle ou pas en se basant sur les longueurs des côtés
-        public // nommée ...Triangle
+        public bool Triangle(double a, double b, double c)// nommée ...Triangle
         {
             bool ok = false;
 
@@ -87,19 +91,21 @@ namespace ACT00_REVISION
             {
                 ok = true;
             }
+
+            return ok;
             // ... Compléter ce qui manque...
         }
         // procédure qui détermine si un triangle est isocèle ou non sur base des longueurs de côtés
-        public // nommée Isocele
+        public void Isocele(double a, double b, double c) // nommée Isocele
         {
-            ok = false;
+            bool ok = false;
             if ((a == b) ^ (a == c) ^ (b == c))   // '^' est le 'ou' exclusif (xor)
             {
                 ok = true;
             }
         }
         // fonction booléenne qui détermine si un triangle est équilatéral sur base de ses côtés
-        public // nommée Equi
+        public bool Equi(double a, double b, double c) // nommée Equi
         {
             bool ok = false;
             if ((a == b) && (a == c))
