@@ -12,6 +12,7 @@ namespace ACT00_REVISION
             string rep;
             string methode;
             string infos;
+            MethodesDuProjet Methodes;
 
             double a = 0;
             double b = 0;
@@ -39,15 +40,15 @@ namespace ACT00_REVISION
                 // ...
 
                 // ordonner les côtés => APPEL ORDONNECOTES
-                MethodesDuProjet.OrdonneCotes(ref a,ref b,ref c);
+                Methodes.OrdonneCotes(ref a,ref b,ref c);
 
 
                 // ...
                 // série de test (voir consignes)
-                if (MethodesDuProjet.Triangle(a,b,c))
+                if (Methodes.Triangle(a,b,c))
                 {
                     // préparation et affichage du résultat du test 'triangle' avec la procédure 'Affiche'
-                    MethodesDuProjet.Affiche("");
+                    Methodes.Affiche("");
                     // ...
                     // ...
 
