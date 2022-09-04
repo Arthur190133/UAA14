@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\190133\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ryckb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\UAA14\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
+      "projectUniqueName": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
       "projectName": "ACT00_REVISION",
-      "projectPath": "H:\\UAA14\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
-      "packagesPath": "C:\\Users\\190133\\.nuget\\packages\\",
-      "outputPath": "H:\\UAA14\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\obj\\",
+      "projectPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
+      "packagesPath": "C:\\Users\\ryckb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\190133\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ryckb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
