@@ -8,11 +8,9 @@ namespace ACT00_REVISION
     class MethodesDuProjet
     {
         // Procédure qui permet de préparer un string 'infos' montrant l'état du triangle selon les situations 'methode' et un booléen 'ok'
-        public void Affiche(string methode)//nommée Affiche
+        public void Affiche(string methode, bool ok, ref string infos)//nommée Affiche
         {
             string verbe;
-            string infos = "";
-            bool ok = false;
             // mémorisation du verbe 'est' ou 'n'est pas' pour former la bonne phrase en fonction d'un booléen passé en paramètre
             if (ok)
             {
@@ -26,16 +24,16 @@ namespace ACT00_REVISION
             switch (methode)
             {
                 case "triangle":
-                    infos = "le polygone " + verbe + "un triangle.";
+                    infos += "le polygone " + verbe + "un triangle.";
                     break;
                 case "equilateral":
-                    infos = "le polygone " + verbe + "un triangle equilateral.";
+                    infos += "le polygone " + verbe + "un triangle equilateral.";
                     break;
                 case "isocele":
-                    infos = "le polygone " + verbe + "un triangle isocele.";
+                    infos += "le polygone " + verbe + "un triangle isocele.";
                     break;
                 case "rectangle":
-                    infos = "le polygone " + verbe + "un triangle rectangle.";
+                    infos += "le polygone " + verbe + "un triangle rectangle.";
                     break;
                 default:
                     break;
@@ -57,7 +55,6 @@ namespace ACT00_REVISION
             {
                 ok = true;
             }
-
             return ok;
             //.... complétez avec ce qui manque logiquement
         }
@@ -91,14 +88,12 @@ namespace ACT00_REVISION
             {
                 ok = true;
             }
-
             return ok;
             // ... Compléter ce qui manque...
         }
         // procédure qui détermine si un triangle est isocèle ou non sur base des longueurs de côtés
-        public void Isocele(double a, double b, double c) // nommée Isocele
+        public void Isocele(double a, double b, double c,ref bool ok) // nommée Isocele
         {
-            bool ok = false;
             if ((a == b) ^ (a == c) ^ (b == c))   // '^' est le 'ou' exclusif (xor)
             {
                 ok = true;

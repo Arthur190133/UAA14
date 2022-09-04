@@ -19,3 +19,17 @@ H:\UAA14\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1
 H:\UAA14\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.CoreCompileInputs.cache
 H:\UAA14\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.dll
 H:\UAA14\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.AssemblyReference.cache
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.AssemblyInfoInputs.cache
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.AssemblyInfo.cs
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.CoreCompileInputs.cache
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.dll
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.exe
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.deps.json
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.runtimeconfig.json
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.runtimeconfig.dev.json
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.dll
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.genruntimeconfig.cache

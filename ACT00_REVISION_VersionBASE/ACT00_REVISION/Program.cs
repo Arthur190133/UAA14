@@ -10,82 +10,87 @@ namespace ACT00_REVISION
             // déclaration des variables.... COMPLETER AVEC CE QUI MANQUE
 
             string rep;
-            string methode;
-            string infos;
-            MethodesDuProjet Methodes;
+            string methode = "";
+            string infos = "";
+
+            // instanciation de la structure
+            MethodesDuProjet Methodes = new MethodesDuProjet();
 
             double a = 0;
             double b = 0;
             double c = 0;
-            double c1 = 0;
-            double c2 = 0;
-            double c3 = 0;
             bool ok = false;
-            // instanciation de la structure
-            // ...... COMPLETER
+
 
             Console.WriteLine("Testez les polygones !");
             //On recommence tant que désiré
             do
             {
-                Console.WriteLine("Entrez la valeur du coté 1");
-                double.TryParse(Console.ReadLine(), out a);
-                Console.WriteLine("Entrez la valeur du coté 2");
-                double.TryParse(Console.ReadLine(), out b);
-                Console.WriteLine("Entrez la valeur du coté 3");
-                double.TryParse(Console.ReadLine(), out c);
                 //lecture des 3 côtés
-                // ...
-                // ...
-                // ...
+                a = lireDouble(1);
+                b = lireDouble(2);
+                c = lireDouble(3);
 
                 // ordonner les côtés => APPEL ORDONNECOTES
-                Methodes.OrdonneCotes(ref a,ref b,ref c);
+                Methodes.OrdonneCotes(ref a, ref b, ref c);
+                infos = "";
+                ok = false;
+                methode = "";
 
-
-                // ...
                 // série de test (voir consignes)
                 if (Methodes.Triangle(a,b,c))
                 {
                     // préparation et affichage du résultat du test 'triangle' avec la procédure 'Affiche'
-                    Methodes.Affiche("");
-                    // ...
-                    // ...
+                    methode = "triangle";
+                    ok = true;
+                    Methodes.Affiche(methode, ok, ref infos);
 
                     // vérification équilatéral
-                    if (// on a un triangle équilatéral...)
+                    if (Methodes.Equi(a,b,c))
                     {
                         // préparation et affichage du résultat du test 'equilateral' avec la procédure 'Affiche'
-                        // ...
-                        // ...
+                        methode = "equilateral";
+                        ok = true;
+                        infos += "\n";
+                        Methodes.Affiche(methode, ok, ref infos);
                     }
                     else
                     {
                         // vérification triangle rectangle
-                        if (// on a un triangle équilatéral...)
+                        if (Methodes.TriangleRectangle(a,b,c))
                         {
-                            // préparation et affichage du résultat positif du test 'rectangle' avec la procédure 'Affiche'
-                            // ...
-                            // ...
+                            methode += " rectangle";
+                            ok = true;
+                            infos += "\n";
+                            Methodes.Affiche(methode, ok, ref infos);
                         }
                         else
                         {
-                            // préparation et affichage du résultat négatif du test 'rectangle' avec la procédure 'Affiche'
-                            // ...
-                            // ...
+                            methode = "rectangle";
+                            ok = false;
+                            infos += "\n";
+                            Methodes.Affiche(methode, ok, ref infos);
                         }
+
                         // vérification du cas isocèle et affichage dans le cas positif
-                        //...
-                        //...
-                        //... A vous de voir en combien de lignes...
+                        bool IsIsocele = false;
+                        Methodes.Isocele(a, b, c, ref IsIsocele);
+                        if (IsIsocele)
+                        {
+                            infos += "\n";
+                            methode = "isocele";
+                            ok = true;
+                            Methodes.Affiche(methode, ok, ref infos);
+                        }
                     }
                 }
                 else // si ce n'est pas un triangle
                 {
-                    // préparation et affichage du résultat négataif du test 'triangle' avec la procédure 'Affiche'
-                    // ...
-                    // ...
+                    methode = "triangle";
+                    ok = false;
+                    Methodes.Affiche(methode, ok, ref infos);
                 }
+                Console.WriteLine(infos);
                 // reprise ?
                 Console.WriteLine("Voulez-vous tester un autre polygône ? (Tapez espace)");
                 rep = Console.ReadLine();
