@@ -33,3 +33,17 @@ C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin
 C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.dll
 C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.pdb
 C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.genruntimeconfig.cache
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.exe
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.deps.json
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.runtimeconfig.json
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.runtimeconfig.dev.json
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.dll
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.AssemblyInfoInputs.cache
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.AssemblyInfo.cs
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.dll
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.genruntimeconfig.cache

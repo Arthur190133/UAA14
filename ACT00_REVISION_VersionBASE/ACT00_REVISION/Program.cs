@@ -100,8 +100,13 @@ namespace ACT00_REVISION
         static double lireDouble(int numeroCote)
         {
             double cote;
-            Console.Write("Tapez la valeur du côté " + numeroCote + " : ");
-            cote = double.Parse(Console.ReadLine());
+            string valeur = "";
+            do
+            {
+                Console.Write("Tapez la valeur du côté " + numeroCote + " : ");
+                valeur = Console.ReadLine();
+            } while (double.TryParse(valeur, out cote));
+
             return cote;
         }
     }
