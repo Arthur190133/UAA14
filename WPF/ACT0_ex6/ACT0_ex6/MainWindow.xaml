@@ -8,9 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" SelectionMode="Single">
-            <ListBoxItem>ListBox Item #1</ListBoxItem>
-            <ListBoxItem>ListBox Item #2</ListBoxItem>
-            <ListBoxItem>ListBox Item #3</ListBoxItem>
+            <MenuItem>ListBox Item #1</MenuItem>
         </ListBox>
 
     </Grid>
