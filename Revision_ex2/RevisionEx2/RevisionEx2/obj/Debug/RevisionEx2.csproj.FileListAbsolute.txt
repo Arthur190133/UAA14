@@ -5,3 +5,10 @@ H:\UAA14\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\bin\Debug\RevisionEx2.exe
 H:\UAA14\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\bin\Debug\RevisionEx2.pdb
 H:\UAA14\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\obj\Debug\RevisionEx2.exe
 H:\UAA14\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\obj\Debug\RevisionEx2.pdb
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\bin\Debug\RevisionEx2.exe.config
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\bin\Debug\RevisionEx2.exe
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\bin\Debug\RevisionEx2.pdb
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\obj\Debug\RevisionEx2.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\obj\Debug\RevisionEx2.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\obj\Debug\RevisionEx2.exe
+C:\Users\190133.asty-moulin\Desktop\UAA14\Revision_ex2\RevisionEx2\RevisionEx2\obj\Debug\RevisionEx2.pdb

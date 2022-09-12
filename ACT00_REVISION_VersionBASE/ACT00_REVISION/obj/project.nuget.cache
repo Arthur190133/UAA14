@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "+AVpcM14mn5cmZFely0vg9ixyc1U5Diy0zukaEDJtQ16pv95H0qlQgQBY9WSAkxxZRhjzeNtZwvSVOqWk6EV0Q==",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "oTNQG6LXJ4ex6+2x0SR3pB/JTC41UQzMPag+EJ+embOnzDWOV3m5GWxxfZsLIgdDv9UiFVWlfv+u8JZl5qbfWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\190133.asty-moulin\\Desktop\\UAA14\\ACT00_REVISION_VersionBASE\\ACT00_REVISION\\ACT00_REVISION.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> ab2a141e8b3b73efc2179e19aaa37fe7b26bf4af
 }

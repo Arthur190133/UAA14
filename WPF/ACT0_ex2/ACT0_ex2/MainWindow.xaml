@@ -1,0 +1,16 @@
+﻿<Window x:Class="ACT0_ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACT0_ex2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="UpLe" HorizontalAlignment="Center" Margin="0,0,40,40" VerticalAlignment="Center" Width="40" Height="40"/>
+        <Button Content="UpRi" HorizontalAlignment="Center" Margin="80,0,40,40" VerticalAlignment="Center" Width="40" Height="40" HorizontalContentAlignment="Center"/>
+        <Button Content="DoLe" HorizontalAlignment="Center" Margin="0,80,40,40" VerticalAlignment="Center" Width="40" Height="40" HorizontalContentAlignment="Center"/>
+        <Button Content="DoRi" HorizontalAlignment="Center" Margin="80,80,40,40" VerticalAlignment="Center" Width="40" Height="40" HorizontalContentAlignment="Center"/>
+
+    </Grid>
+</Window>

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 is_global = true
 build_property.RootNamespace = ACT00_REVISION
 build_property.ProjectDir = C:\Users\ryckb\Documents\GIT\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\
+=======
+is_global = true
+build_property.RootNamespace = ACT00_REVISION
+build_property.ProjectDir = C:\Users\190133.asty-moulin\Desktop\UAA14\ACT00_REVISION_VersionBASE\ACT00_REVISION\
+>>>>>>> ab2a141e8b3b73efc2179e19aaa37fe7b26bf4af
