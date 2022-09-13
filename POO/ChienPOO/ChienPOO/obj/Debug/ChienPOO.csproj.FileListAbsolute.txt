@@ -1,0 +1,7 @@
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\bin\Debug\ChienPOO.exe.config
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\bin\Debug\ChienPOO.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\bin\Debug\ChienPOO.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\obj\Debug\ChienPOO.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\obj\Debug\ChienPOO.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\obj\Debug\ChienPOO.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ChienPOO\ChienPOO\obj\Debug\ChienPOO.pdb
