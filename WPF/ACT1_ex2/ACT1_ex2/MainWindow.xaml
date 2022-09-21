@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ACT1_ex2"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="490">
-    <Grid>
+    <Grid Background="#FF9CAAAA">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="2*"></RowDefinition>
@@ -14,15 +14,35 @@
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="2*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"></ColumnDefinition>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch">
-            <Button Width="76" Margin="23 40">1</Button>
-            <Button Width="76" Margin="23 40"></Button>
-            <Button Width="76" Margin="23 40"></Button>
-            <Button Width="76" Margin="23,40,45,40" HorizontalAlignment="Stretch"></Button>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0"  HorizontalAlignment="Stretch">
+            <TextBlock Background="White" Height="200" Width="320" Margin="23" FontStyle="Normal" TextAlignment="Right" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            </TextBlock>
+            <Button Width="76" Margin="23 40" Background="Red" FontSize="36" FontStyle="Normal" FontWeight="Bold">C</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Stretch">
+            <Button Width="76" Margin="23 40" Background="#FF73BAB9" FontSize="36" FontStyle="Normal" FontWeight="Bold">1</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9"  FontSize="36" FontStyle="Normal" FontWeight="Bold">2</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9"  FontSize="36" FontStyle="Normal" FontWeight="Bold">3</Button>
+            <Button Width="76" Margin="23,40,45,40" Background="#FF54A646"  FontSize="56" FontStyle="Normal" FontWeight="Bold">+</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Stretch">
+            <Button Width="76" Margin="23 40" Background="#FF73BAB9" FontSize="36" FontStyle="Normal" FontWeight="Bold">4</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9" FontSize="36" FontStyle="Normal" FontWeight="Bold">5</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9" FontSize="36" FontStyle="Normal" FontWeight="Bold">6</Button>
+            <Button Width="76" Margin="23,40,45,40"  Background="#FF54A646" FontSize="56" FontStyle="Normal" FontWeight="Bold">-</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Stretch">
+            <Button Width="76" Margin="23 40" Background="#FF73BAB9"  FontSize="36" FontStyle="Normal" FontWeight="Bold">7</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9"  FontSize="36" FontStyle="Normal" FontWeight="Bold">8</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9"  FontSize="36" FontStyle="Normal" FontWeight="Bold">9</Button>
+            <Button Width="76" Margin="23,40,45,40"   Background="#FF54A646" FontSize="56" FontStyle="Normal" FontWeight="Bold">/</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="4"  HorizontalAlignment="Stretch">
+            <Button Width="76" Margin="23 40" Background="#FFA3D5EF"  FontSize="56" FontStyle="Normal" FontWeight="Bold">,</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF73BAB9"  FontSize="36" FontStyle="Normal" FontWeight="Bold">0</Button>
+            <Button Width="76" Margin="23 40"  Background="#FF54A646" FontSize="56" FontStyle="Normal" FontWeight="Bold">*</Button>
+            <Button Width="76" Margin="23,40,45,40"  Background="#FFF7BF00" FontSize="56" FontStyle="Normal" FontWeight="Bold">=</Button>
         </StackPanel>
     </Grid>
 </Window>
