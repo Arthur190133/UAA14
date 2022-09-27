@@ -21,17 +21,6 @@ namespace MatchingGame_Arthur
     /// </summary>
     public partial class MainWindow : Window
     {
-    List<string> AnimalEmoji = new List<string>()
-        {
-            "🐈","🐈",
-            "🐷","🐷",
-            "🐐","🐐",
-            "🦊","🦊",
-            "🐴","🐴",
-            "🦨","🦨",
-            "🦉","🦉",
-            "🐀","🐀",
-        };
         DispatcherTimer timer = new DispatcherTimer();
         int tempsEcoule = 0;
         int nbPairesTrouvees = 0;
@@ -57,6 +46,18 @@ namespace MatchingGame_Arthur
 
         private void SetTextBlocks()
         {
+            List<string> AnimalEmoji = new List<string>()
+        {
+            "🐈","🐈",
+            "🐷","🐷",
+            "🐐","🐐",
+            "🦊","🦊",
+            "🐴","🐴",
+            "🦨","🦨",
+            "🦉","🦉",
+            "🐀","🐀",
+        };
+
             Random random = new Random();
             foreach (TextBlock textBlock in Grid.Children.OfType<TextBlock>())
             {
@@ -64,10 +65,11 @@ namespace MatchingGame_Arthur
                 {
                     
                     Random nbAlea = random;
-                    int index = nbAlea.Next(AnimalEmoji.Count); // index est de type int // nbalea est un objet de type Random()
-                    string nextEmoji = AnimalEmoji[index]; // nextEmoji est de type string
+                    int index = nbAlea.Next(AnimalEmoji.Count);
+                    string nextEmoji = AnimalEmoji[index];
+                    textBlock.Visibility = Visibility.Visible;
                     textBlock.Text = nextEmoji;
-                    AnimalEmoji.RemoveAt(index); // on retire un animal de la liste pour ne pas l’attribuer à nouveau.
+                    AnimalEmoji.RemoveAt(index); 
                 }
 
             }
