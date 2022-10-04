@@ -1,0 +1,14 @@
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\bin\Debug\netcoreapp3.1\I1P622_Arthur.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\bin\Debug\netcoreapp3.1\I1P622_Arthur.deps.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\bin\Debug\netcoreapp3.1\I1P622_Arthur.runtimeconfig.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\bin\Debug\netcoreapp3.1\I1P622_Arthur.runtimeconfig.dev.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\bin\Debug\netcoreapp3.1\I1P622_Arthur.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\bin\Debug\netcoreapp3.1\I1P622_Arthur.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.AssemblyInfoInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.AssemblyInfo.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\I1P622_Arthur\I1P622_Arthur\obj\Debug\netcoreapp3.1\I1P622_Arthur.genruntimeconfig.cache
