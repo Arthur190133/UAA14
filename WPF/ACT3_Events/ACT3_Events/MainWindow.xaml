@@ -15,19 +15,19 @@
         </Grid.RowDefinitions>
         <WrapPanel Grid.Row="0">
             <TextBlock FontSize="50" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="50">A</TextBlock>
-            <TextBox FontSize="50" HorizontalAlignment="Center" Height="100" Width="300" TextAlignment="Right" Background="White"/>
+            <TextBox x:Name="txtA" FontSize="50" HorizontalAlignment="Center" Height="100" Width="300" TextAlignment="Right" Background="White"/>
         </WrapPanel>
         <WrapPanel Grid.Row="1">
             <TextBlock FontSize="50" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="50">B</TextBlock>
-            <TextBox FontSize="50" HorizontalAlignment="Right" Height="100" Width="300" TextAlignment="Right" Background="White"></TextBox>
+            <TextBox x:Name="txtB" FontSize="50" HorizontalAlignment="Right" Height="100" Width="300" TextAlignment="Right" Background="White"></TextBox>
         </WrapPanel>
         <WrapPanel Grid.Row="2">
             <TextBlock FontSize="50" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="50">C</TextBlock>
-            <TextBox FontSize="50" HorizontalAlignment="Right" Height="100" Width="300" TextAlignment="Right" Background="White"></TextBox>
+            <TextBox x:Name="txtC" FontSize="50" HorizontalAlignment="Right" Height="100" Width="300" TextAlignment="Right" Background="White"></TextBox>
         </WrapPanel>
         <WrapPanel Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Height="50" Width="300" FontSize="30" MouseDown="Calculer">CALCULER</Button>
-            <Button Visibility="Hidden" Height="50" Width="50" Margin="30" FontWeight="Heavy" FontSize="30">V</Button>
+            <Button  x:Name="calculer" Height="50" Width="300" FontSize="30" MouseDown="Calculer">CALCULER</Button>
+            <Button x:Name="vButton" Visibility="Hidden" Height="50" Width="50" Margin="30" FontWeight="Heavy" FontSize="30">V</Button>
         </WrapPanel>
     </Grid>
 </Window>
