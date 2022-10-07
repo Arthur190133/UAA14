@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "P622_I1_Arthur/1.0.0": {
+        "runtime": {
+          "P622_I1_Arthur.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P622_I1_Arthur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
