@@ -32,12 +32,20 @@ namespace ACT3_Events
 
         private void Calculer(object sender, MouseButtonEventArgs e)
         {
-             calculs.ResoudreTrinome(int.Parse(txtA.Text), int.Parse(txtB.Text), int.Parse(txtC.Text), out type);
-             PageResultat secondpage = new PageResultat();
-             secondpage.txtResultat.Text = type;
-             Visibility = Visibility.Hidden;
-             secondpage.Show();
+            if (TestText(txtA.Text, txtB.Text, txtC.Text))
+            {
+                calculs.ResoudreTrinome(float.Parse(txtA.Text), float.Parse(txtB.Text), float.Parse(txtC.Text), out type);
+                PageResultat secondpage = new PageResultat();
+                secondpage.txtResultat.Text = type;
+                Visibility = Visibility.Hidden;
+                secondpage.Show();
+            }
 
+        }
+        private bool TestText(string A, string B, string C)
+        {
+            if(float.TryParse(A, out _) && float.TryParse(B, out _) && float.TryParse(C, out _)){ return true; }
+            return false;
         }
 
         private void VerifTextInput(object sender, TextCompositionEventArgs e)

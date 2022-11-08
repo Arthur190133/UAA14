@@ -6,7 +6,7 @@ namespace ACT3_Events
 {
     internal class Calculs
     {
-        public void ResoudreTrinome(int a, int b, int c, out string type)
+        public void ResoudreTrinome(float a, float b, float c, out string type)
         {
             type = null;
             double delta;
