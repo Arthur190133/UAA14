@@ -40,3 +40,5 @@ C:\Users\ryckb\Documents\GIT\UAA14\WPF\ACT3_Events\ACT3_Events\obj\Debug\netcore
 C:\Users\ryckb\Documents\GIT\UAA14\WPF\ACT3_Events\ACT3_Events\obj\Debug\netcoreapp3.1\ACT3_Events.genruntimeconfig.cache
 C:\Users\ryckb\Documents\GIT\UAA14\WPF\ACT3_Events\ACT3_Events\obj\Debug\netcoreapp3.1\PageResultat.g.cs
 C:\Users\ryckb\Documents\GIT\UAA14\WPF\ACT3_Events\ACT3_Events\obj\Debug\netcoreapp3.1\PageResultat.baml
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF\ACT3_Events\ACT3_Events\obj\Debug\netcoreapp3.1\PageResultat.g.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF\ACT3_Events\ACT3_Events\obj\Debug\netcoreapp3.1\PageResultat.baml

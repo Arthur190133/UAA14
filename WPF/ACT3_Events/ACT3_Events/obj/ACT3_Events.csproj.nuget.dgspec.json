@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj": {}
+    "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj": {
+    "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj",
+        "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj",
         "projectName": "ACT3_Events",
-        "projectPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj",
-        "packagesPath": "C:\\Users\\ryckb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\obj\\",
+        "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\ACT3_Events.csproj",
+        "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3_Events\\ACT3_Events\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ryckb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\190133.asty-moulin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }

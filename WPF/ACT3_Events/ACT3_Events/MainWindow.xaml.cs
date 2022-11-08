@@ -70,7 +70,7 @@ namespace ACT3_Events
 
         private void StopSurvolButton(object sender, EventArgs e)
         {
-            vButton.Background = Brushes.White;
+            vButton.Visibility = Visibility.Hidden;
         }
 
     }
