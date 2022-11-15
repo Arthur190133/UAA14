@@ -12,6 +12,7 @@ namespace ChienPOO
         {
 
             Chien[] chiens = new Chien[3];
+            int totalAge = 0;
 
             for(int i = 0; i < 3; i++)
             {
@@ -27,8 +28,10 @@ namespace ChienPOO
             for(int i = 0; i < 3; i++)
             {
                 chiens[i].AfficheCaracteristiques();
+                totalAge += chiens[i].Age;
             }
-            
+            Console.WriteLine("Total des ages des chiens " + totalAge);
+
 
             Console.ReadLine();
         }

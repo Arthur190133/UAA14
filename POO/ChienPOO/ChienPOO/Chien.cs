@@ -8,24 +8,43 @@ namespace ChienPOO
 {
     class Chien
     {
-        private string Nom;
-        private string Race;
-        private int Age;
+        private string _nom;
+        private string _race;
+        private int _age;
+
+
+        public int Age
+        {
+            get
+            {
+                return _age;
+            }
+        }
+
+        public string Race
+        {
+            get { return _race; }
+        }
+
+        public string Nom
+        {
+            get { return _nom; }
+        }
 
         public Chien(string NomChien, string RaceChien, int AgeChien)
         {
-            Nom = NomChien;
-            Race = RaceChien;
-            Age = AgeChien;
+            _nom = NomChien;
+            _race = RaceChien;
+            _age = AgeChien;
         }
 
         public void AfficheCaracteristiques()
         {
             string Affiche = "";
 
-            Affiche += "Nom : " + Nom;
+            Affiche += "Nom : " + _nom;
             Affiche += " - Age : " + Age;
-            Affiche += " - Race : " + Race.ToString();
+            Affiche += " - Race : " + _race.ToString();
 
             Console.WriteLine(Affiche);
         }
