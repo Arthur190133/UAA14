@@ -61,7 +61,7 @@ namespace ACT3_Events {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ACT3_Events;component/pageresultat.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ACT3_Events;V1.0.0.0;component/pageresultat.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PageResultat.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

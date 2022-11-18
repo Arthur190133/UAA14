@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace ACT3BIS_Events
 {
@@ -24,6 +25,16 @@ namespace ACT3BIS_Events
         {
             InitializeComponent();
             txtBPers.PreviewTextInput += new TextCompositionEventHandler(CheckUserNumber);
+            //txtBStartDate.PreviewTextInput += new TextCompositionEventHandler(CheckStartDate);
+        
+        }
+
+        private void CheckStartDate(object sender, TextCompositionEventArgs e)
+        {
+            DateTime StartDate;
+            string.Format("dd-mm-YY", e.Text);
+
+           
         }
 
 
@@ -45,5 +56,44 @@ namespace ACT3BIS_Events
         {
             return int.TryParse(userText, out _);
         }
+
+        private bool ValidDates(string StartDate, string EndDate)
+        {
+            
+            if (VerifDate(StartDate) && VerifDate(EndDate))
+            {
+                
+                DateTime Start = DateTime.Parse(StartDate);
+                DateTime End = DateTime.Parse(EndDate);
+                
+
+                // verifier si trop long
+                if((End.Month - Start.Month) <= 3 && (End.Year - Start.Year) <= 1)
+                {
+                    int nbrSemaine = RecupSemaine(Start, End);
+                    Weeks.Text = nbrSemaine.ToString();
+                }
+            }
+            return false;
+        }
+
+        private int RecupSemaine(DateTime Start , DateTime End)
+        {
+            return (End.DayOfYear - Start.DayOfYear) / 7;
+        }
+
+        private bool VerifDate(string Date)
+        {
+            if(DateTime.TryParse(Date, out _)){ return true; };
+
+            return false;
+        }
+
+        private void Button_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            Weeks.Text = "validi";
+            ValidDates(txtBStartDate.Text, txtBEndDate.Text);
+        }
+
     }
 }

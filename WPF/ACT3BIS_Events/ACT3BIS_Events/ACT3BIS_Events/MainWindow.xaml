@@ -42,15 +42,15 @@
                 </WrapPanel>
                 <WrapPanel>
                     <TextBlock>Date d'arrivée :</TextBlock>
-                    <TextBox x:Name="txtBStartDate" Height="20" Width="100"></TextBox>
+                    <TextBox x:Name="txtBStartDate" Height="20" Width="100" Text=""></TextBox>
                 </WrapPanel>
                 <WrapPanel>
                     <TextBlock>Date de sortie :</TextBlock>
                     <TextBox x:Name="txtBEndDate" Height="20" Width="100"></TextBox>
                 </WrapPanel>
                 <WrapPanel VerticalAlignment="Bottom">
-                    <Button Height="20" Width="100">DUREE SOTIE</Button>
-                    <TextBlock>Durée en semaines</TextBlock>
+                    <Button Height="20" Width="100" MouseUp="Button_MouseUp">DUREE SOTIE</Button>
+                    <TextBlock x:Name="Weeks">Durée en semaines </TextBlock>
                 </WrapPanel>
             </StackPanel>
         </GroupBox>

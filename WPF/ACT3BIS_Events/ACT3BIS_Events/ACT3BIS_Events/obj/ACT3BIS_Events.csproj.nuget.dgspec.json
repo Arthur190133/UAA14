@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj": {}
+    "C:\\Users\\190133\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj": {}
   },
   "projects": {
-    "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj": {
+    "C:\\Users\\190133\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj",
+        "projectUniqueName": "C:\\Users\\190133\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj",
         "projectName": "ACT3BIS_Events",
-        "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj",
-        "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\obj\\",
+        "projectPath": "C:\\Users\\190133\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj",
+        "packagesPath": "C:\\Users\\190133\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\190133\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\190133.asty-moulin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\190133\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
