@@ -1,0 +1,32 @@
+class GumballMachine
+{
+     private int _gumballs;
+     private int _price;
+
+     public int Price
+     {
+     	get
+          {
+          	return Price; -- retrun _price; --
+          }
+      }
+
+      public GumballMachine(int gumballs, int price)
+      {
+      	  gumballs = this._gumballs; -- _gumballs = gumballs;
+          _price = Price; 
+      }
+
+      public string DispenseOneGumball(int --//_price//-- , int coinsInserted)
+      {
+      	if (--//this.//--coinsInserted >= price -- _price--)
+          {
+          	_gumballs -= 1;
+               return "Voici votre gomme !";
+          }
+          else
+          {
+          	return "Pas assez de pièces !";
+          }
+      }
+ }
