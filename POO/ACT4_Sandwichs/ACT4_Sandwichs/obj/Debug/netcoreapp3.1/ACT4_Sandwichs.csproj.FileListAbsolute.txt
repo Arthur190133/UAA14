@@ -1,0 +1,14 @@
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\bin\Debug\netcoreapp3.1\ACT4_Sandwichs.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\bin\Debug\netcoreapp3.1\ACT4_Sandwichs.deps.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\bin\Debug\netcoreapp3.1\ACT4_Sandwichs.runtimeconfig.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\bin\Debug\netcoreapp3.1\ACT4_Sandwichs.runtimeconfig.dev.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\bin\Debug\netcoreapp3.1\ACT4_Sandwichs.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\bin\Debug\netcoreapp3.1\ACT4_Sandwichs.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.AssemblyInfoInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.AssemblyInfo.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Sandwichs\ACT4_Sandwichs\obj\Debug\netcoreapp3.1\ACT4_Sandwichs.genruntimeconfig.cache

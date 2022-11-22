@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ACT4_Sandwichs/1.0.0": {
+        "runtime": {
+          "ACT4_Sandwichs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ACT4_Sandwichs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

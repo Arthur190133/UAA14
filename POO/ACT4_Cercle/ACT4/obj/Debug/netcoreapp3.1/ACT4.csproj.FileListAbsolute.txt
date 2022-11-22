@@ -12,3 +12,17 @@ C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4\ACT4\obj\Debug\netcoreapp3.
 C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4\ACT4\obj\Debug\netcoreapp3.1\ACT4.dll
 C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4\ACT4\obj\Debug\netcoreapp3.1\ACT4.pdb
 C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4\ACT4\obj\Debug\netcoreapp3.1\ACT4.genruntimeconfig.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\bin\Debug\netcoreapp3.1\ACT4.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\bin\Debug\netcoreapp3.1\ACT4.deps.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\bin\Debug\netcoreapp3.1\ACT4.runtimeconfig.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\bin\Debug\netcoreapp3.1\ACT4.runtimeconfig.dev.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\bin\Debug\netcoreapp3.1\ACT4.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\bin\Debug\netcoreapp3.1\ACT4.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.AssemblyInfoInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.AssemblyInfo.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT4_Cercle\ACT4\obj\Debug\netcoreapp3.1\ACT4.genruntimeconfig.cache

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT4_Cercle\\ACT4\\ACT4.csproj",
-      "projectName": "ACT4",
-      "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT4_Cercle\\ACT4\\ACT4.csproj",
+      "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT4_Sandwichs\\ACT4_Sandwichs\\ACT4_Sandwichs.csproj",
+      "projectName": "ACT4_Sandwichs",
+      "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT4_Sandwichs\\ACT4_Sandwichs\\ACT4_Sandwichs.csproj",
       "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT4_Cercle\\ACT4\\obj\\",
+      "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT4_Sandwichs\\ACT4_Sandwichs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

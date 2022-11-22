@@ -14,6 +14,9 @@ namespace ACT4
                 Console.WriteLine("Tapez un rayon pour votre cercle");
                 cercle.Rayon = double.Parse(Console.ReadLine());
                 cercle.Caracteristique();
+                Console.WriteLine("Avec un rayon diminué de moitier");
+                cercle.Rayon /= 2;
+                cercle.Caracteristique();
                 Console.WriteLine("Un autre cercle ? (Tapez sur espace)");
                 Console.ReadLine();
             } while (0 == 0);
