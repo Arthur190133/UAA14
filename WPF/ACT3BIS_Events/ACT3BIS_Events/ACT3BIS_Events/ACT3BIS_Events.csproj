@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="logs.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="logs.xaml" />
+  </ItemGroup>
+
 </Project>

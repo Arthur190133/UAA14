@@ -21,12 +21,12 @@
         </Grid.RowDefinitions>
         <GroupBox Width="130" Margin="0 0 60 0" Height="100" Grid.Row="0" Grid.Column="0" x:Name="BoxTypeLogement" Header="TYPE DE LOGEMENT">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center"> 
-                <RadioButton Margin="0 0 0 10" GroupName="Logement">CHALET</RadioButton>
-                <RadioButton GroupName="Logement">TENTE</RadioButton>
+                <RadioButton x:Name="RadioLogementChalet" Margin="0 0 0 10" GroupName="Logement">CHALET</RadioButton>
+                <RadioButton x:Name="RadioLogementTente"  GroupName="Logement">TENTE</RadioButton>
             </StackPanel>
         </GroupBox>
         <StackPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="0">
-            <CheckBox>RESERVATION</CheckBox>
+            <CheckBox x:Name="CheckBoxReserv">RESERVATION</CheckBox>
         </StackPanel>
         <GroupBox Margin="20 20 60 10" Header="RESULTATS" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
             <StackPanel VerticalAlignment="Center">
@@ -49,13 +49,13 @@
                     <TextBox x:Name="txtBEndDate" Height="20" Width="100"></TextBox>
                 </WrapPanel>
                 <WrapPanel VerticalAlignment="Bottom">
-                    <Button Height="20" Width="100" MouseUp="Button_MouseUp">DUREE SOTIE</Button>
+                    <Button Height="20" Width="100" Click="calculerdureesortieEvent">DUREE SOTIE</Button>
                     <TextBlock x:Name="Weeks">Durée en semaines </TextBlock>
                 </WrapPanel>
             </StackPanel>
         </GroupBox>
         <StackPanel Grid.Row="2" Grid.Column="2" VerticalAlignment="Center">
-            <Button x:Name="btnCalculer" >CALCULER</Button>
+            <Button x:Name="btnCalculer" Visibility="Hidden" Click="Calculer">CALCULER</Button>
             <Button x:Name="btnInit" Margin="0 20 0 0">INIT</Button>
         </StackPanel>
     </Grid>
