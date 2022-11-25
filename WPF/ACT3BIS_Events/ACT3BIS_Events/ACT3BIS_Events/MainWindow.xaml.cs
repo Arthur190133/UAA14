@@ -146,6 +146,8 @@ namespace ACT3BIS_Events
                 Emplacement = 0;
             }
 
+
+            
             switch (Temps)
             {
                 case 0:
@@ -238,6 +240,7 @@ namespace ACT3BIS_Events
                     }
                     break;
             }
+            
             return prix;
         }
 

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj",
-      "projectName": "ACT3BIS_Events",
-      "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events.csproj",
+      "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT5_2CalculMental\\ACT5_2CalculMental\\ACT5_2CalculMental.csproj",
+      "projectName": "ACT5_2CalculMental",
+      "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT5_2CalculMental\\ACT5_2CalculMental\\ACT5_2CalculMental.csproj",
       "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT3BIS_Events\\ACT3BIS_Events\\ACT3BIS_Events\\obj\\",
+      "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT5_2CalculMental\\ACT5_2CalculMental\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,9 +62,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WPF": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"

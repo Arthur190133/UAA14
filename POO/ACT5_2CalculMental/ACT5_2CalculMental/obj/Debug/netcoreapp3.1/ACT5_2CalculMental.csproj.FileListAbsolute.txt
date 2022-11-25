@@ -1,0 +1,14 @@
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.AssemblyInfoInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.AssemblyInfo.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\bin\Debug\netcoreapp3.1\ACT5_2CalculMental.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\bin\Debug\netcoreapp3.1\ACT5_2CalculMental.deps.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\bin\Debug\netcoreapp3.1\ACT5_2CalculMental.runtimeconfig.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\bin\Debug\netcoreapp3.1\ACT5_2CalculMental.runtimeconfig.dev.json
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\bin\Debug\netcoreapp3.1\ACT5_2CalculMental.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\bin\Debug\netcoreapp3.1\ACT5_2CalculMental.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.dll
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\POO\ACT5_2CalculMental\ACT5_2CalculMental\obj\Debug\netcoreapp3.1\ACT5_2CalculMental.genruntimeconfig.cache
