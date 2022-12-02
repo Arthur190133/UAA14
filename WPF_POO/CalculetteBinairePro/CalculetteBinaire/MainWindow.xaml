@@ -1,0 +1,22 @@
+﻿<Window x:Class="CalculetteBinaire.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculetteBinaire"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBlock x:Name="txtBAfficheur" HorizontalAlignment="Right"></TextBlock>
+            <Button x:Name="btnZero" Click="AddValue">0</Button>
+            <Button x:Name="btnUn" Click="AddValue">1</Button>
+            <Button x:Name="btnPlus" Click="AddProp">+</Button>
+            <Button x:Name="btnMoins" Click="AddProp">-</Button>
+            <Button x:Name="btnFois" Click="AddProp">x</Button>
+            <Button x:Name="btnDivise" Click="AddProp">÷</Button>
+            <Button x:Name="btnCalculer" Click="Calculer">Calculer</Button>
+            <Button x:Name="btnClear" Click="Clear">C</Button>
+        </StackPanel>
+    </Grid>
+</Window>
