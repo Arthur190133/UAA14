@@ -21,14 +21,15 @@ namespace CalculetteBinaire
     public partial class MainWindow : Window
     {
         TextBlock Afficheur;
-        double FirstNbr;
-        double SecondNbr = 0;
-        int SpacesNbr = 0;
+        string FirstNbr;
+        int SpacesNbr = 1;
+        string CurrentProp = "";
+        Calculateur calculateur = new Calculateur();
         public MainWindow()
         {
             InitializeComponent();
 
-            Calculateur calculateur = new Calculateur();
+            
             
             Afficheur = txtBAfficheur;
         }
@@ -36,45 +37,77 @@ namespace CalculetteBinaire
 
         private void AddValue(object sender, RoutedEventArgs e)
         {
-            Afficheur.Text += sender.ToString().Substring(sender.ToString().LastIndexOf(':') + 2);
-
-            SpacesNbr++;
+            Afficheur.Text += (e.Source as Button).Content.ToString();
             if (SpacesNbr == 4)
             {
                 Afficheur.Text += " ";
                 SpacesNbr = 0;
             }
-
-            
-
+            SpacesNbr++;
         }
 
-        private void Add(object sender, RoutedEventArgs e)
+        private void AddProp(object sender, RoutedEventArgs e)
         {
-            if(Afficheur.Text.Length > 0 && !Afficheur.Text.Contains("+") && !Afficheur.Text.Contains("-"))
+            if (Afficheur.Text.Length > 0 && CurrentProp == "")
             {
-                FirstNbr = double.Parse(Afficheur.Text.Replace(" ", ""));
-
-                Afficheur.Text += " + ";
-                SpacesNbr = 0;
-            }
-
-        }
-
-        private void Remove(object sender, RoutedEventArgs e)
-        {
-            if (Afficheur.Text.Length > 0 && !Afficheur.Text.Contains("+") && !Afficheur.Text.Contains("-"))
-            {
-                FirstNbr = double.Parse(Afficheur.Text.Replace(" ", ""));
-
-                Afficheur.Text += " - ";
-                SpacesNbr = 0;
+                CurrentProp = (e.Source as Button).Content.ToString();
+                FirstNbr = Afficheur.Text.Replace(" ", "");
+                Afficheur.Text += CurrentProp + " ";
+                SpacesNbr = 1;
             }
         }
 
         private void Calculer(object sender, RoutedEventArgs e)
         {
-           
+            string nbr2;
+            string affichage = "";
+            if (CheckValue(FirstNbr))
+            {
+                calculateur.PremierBinaire = FirstNbr;
+            }
+            
+            nbr2 = Afficheur.Text.Substring(Afficheur.Text.LastIndexOf(CurrentProp) + 2).ToString();
+            if (CheckValue(nbr2))
+            {
+                calculateur.DeuxiemeBinaire = nbr2;
+            }
+
+            switch (CurrentProp)
+            {
+                case "+":
+                    affichage = calculateur.Addition();
+                    break;
+
+                case "-":
+                    affichage = calculateur.Soustraction();
+                    break;
+
+                case "x":
+                    affichage = calculateur.Multiplication();
+                    break;
+
+                case "÷":
+                    affichage = calculateur.Division();
+                    break;
+
+                default:
+                    affichage = "0";
+                    break;
+            }
+
+            Afficheur.Text += " = " + affichage;
+        }
+
+        private void Clear(object sender, RoutedEventArgs e)
+        {
+            txtBAfficheur.Text = null;
+            SpacesNbr = 1;
+            CurrentProp = "";
+        }
+
+        private bool CheckValue(string binaire)
+        {
+            return (double.TryParse(binaire, out _));
         }
     }
 }

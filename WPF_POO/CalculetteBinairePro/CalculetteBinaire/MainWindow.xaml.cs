@@ -21,10 +21,10 @@ namespace CalculetteBinaire
     public partial class MainWindow : Window
     {
         TextBlock Afficheur;
-        double FirstNbr;
-        double SecondNbr = 0;
+        string FirstNbr;
+        string SecondNbr;
         int SpacesNbr = 0;
-        string prop = "";
+        string CurrentProp = "";
         public MainWindow()
         {
             InitializeComponent();            
@@ -34,67 +34,72 @@ namespace CalculetteBinaire
 
         private void AddValue(object sender, RoutedEventArgs e)
         {
-            if (!Afficheur.Text.Contains("="))
+            Afficheur.Text += (e.Source as Button).Content.ToString();
+            if (SpacesNbr == 4)
             {
-
-                Afficheur.Text += sender.ToString().Substring(sender.ToString().LastIndexOf(':') + 2);
-
-                SpacesNbr++;
-                if (SpacesNbr == 4)
-                {
-                    Afficheur.Text += " ";
-                    SpacesNbr = 0;
-                }
+                Afficheur.Text += " ";
+                SpacesNbr = 0;
             }
+            SpacesNbr++;
         }
 
         private void AddProp(object sender, RoutedEventArgs e)
         {
-            prop = (e.Source as Button).Content.ToString();
-
-            if (Afficheur.Text.Length > 0 && !Afficheur.Text.Contains(prop))
+            if (Afficheur.Text.Length > 0 && CurrentProp == "")
             {
-                FirstNbr = double.Parse(Afficheur.Text.Replace(" ", ""));
-
-                Afficheur.Text += " " + prop +" ";
-                SpacesNbr = 0;
+                CurrentProp = (e.Source as Button).Content.ToString();
+                FirstNbr = Afficheur.Text.Replace(" ", "");
+                Afficheur.Text += CurrentProp + " ";
+                SpacesNbr = 1;
             }
         }
         private void Calculer(object sender, RoutedEventArgs e)
         {
-            string valeur = "";
-            if (Afficheur.Text.Contains(prop) || Afficheur.Text.Contains("="))
+
+
+            string affichage = "";
+            if (Afficheur.Text.Contains(CurrentProp) || Afficheur.Text.Contains("="))
             {
-                SecondNbr = CheckValue(prop);
-                switch (prop)
+
+                if (!CheckValue(FirstNbr))
+                {
+                    FirstNbr = "0";
+                }
+
+                string nbr2 = Afficheur.Text.Substring(Afficheur.Text.LastIndexOf(CurrentProp) + 2).ToString();
+                if (CheckValue(nbr2))
+                {
+                    SecondNbr = nbr2;
+                }
+
+                switch (CurrentProp)
                 {
                     case "+":
-                        //valeur = Addition(FirstNbr.ToString(), SecondNbr.ToString());
-                        valeur =  binaireToString(Add(FillArray(FirstNbr.ToString()), FillArray(SecondNbr.ToString())));
-                        //arr(FillArray(SecondNbr.ToString()));
+                        //affichage = Addition(FirstNbr, SecondNbr);
+                        affichage = binaireToString(Add(FillArray(FirstNbr.ToString()), FillArray(SecondNbr.ToString())));
                         break;
 
                     case "-":
-                        //valeur = Soustraction(FirstNbr.ToString(), SecondNbr.ToString());
+                        //affichage = Soustraction(FirstNbr, SecondNbr);
                         ushort[] bin = new ushort[8];
-                        Sous(FillArray(FirstNbr.ToString()), FillArray(SecondNbr.ToString()),ref bin);
-                        valeur = binaireToString(bin);
+                        Sous(FillArray(FirstNbr.ToString()), FillArray(SecondNbr.ToString()), ref bin);
+                        affichage = binaireToString(bin);
                         break;
 
                     case "x":
-                        valeur = Multiplication(FirstNbr.ToString(), SecondNbr.ToString());
+                        affichage = Multiplication(FirstNbr, SecondNbr);
                         break;
 
                     case "÷":
-                        valeur = Divistion(FirstNbr.ToString(), SecondNbr.ToString());
+                        affichage = Divistion(FirstNbr, SecondNbr);
                         break;
 
                     default:
-                        valeur = "0";
+                        affichage = "0";
                         break;
                 }
 
-                Afficheur.Text += " = " + valeur;
+                Afficheur.Text += " = " + affichage;
             }
         }
 
@@ -102,18 +107,20 @@ namespace CalculetteBinaire
         {
             string result = "";
 
-            for(int i = 0; i < binaire.Length; i++)
+            for (int i = 0; i < binaire.Length; i++)
             {
                 result += binaire[i];
             }
 
             return result;
         }
+        
 
         private void Clear(object sender, RoutedEventArgs e)
         {
             Afficheur.Text = "";
             SpacesNbr = 0;
+            CurrentProp = "";
         }
 
         private string Addition(string nbr1, string nbr2)
@@ -130,10 +137,10 @@ namespace CalculetteBinaire
 
             ushort[] arrayRes = new ushort[8];
 
-            for(int i = 7; i > 0; i--)
+            for (int i = 7; i > 0; i--)
             {
                 int res = nbr1[i] + nbr2[i] + report;
-                if(res / 2 == 0)
+                if (res / 2 == 0)
                 {
                     report = 0;
                 }
@@ -142,13 +149,13 @@ namespace CalculetteBinaire
                     report = 1;
                 }
 
-                if(res == 1)
+                if (res == 1)
                 {
                     arrayRes[i] = 1;
                 }
                 else
                 {
-                    if(res % 2 == 1)
+                    if (res % 2 == 1)
                     {
                         arrayRes[i] = 1;
                     }
@@ -159,7 +166,7 @@ namespace CalculetteBinaire
                 }
             }
 
-            if(report == 1)
+            if (report == 1)
             {
                 ok = false;
             }
@@ -167,25 +174,32 @@ namespace CalculetteBinaire
             return arrayRes;
         }
 
-        private bool Sous(ushort[] nbr1, ushort[] nbr2,ref ushort[]binaire)
+        private string Soustraction(string nbr1, string nbr2)
+        {
+            string sum = Convert.ToString(Convert.ToInt32(nbr1, 2) - Convert.ToInt32(nbr2, 2), 2).PadLeft(4, '0');
+
+            return sum;
+        }
+
+        private bool Sous(ushort[] nbr1, ushort[] nbr2, ref ushort[] binaire)
         {
             int[] arrayTemp = new int[8];
             ushort[] arrayRes = new ushort[8];
             bool ok = true;
 
-            for(int i = 0; i < 7; i++)
+            for (int i = 0; i < 7; i++)
             {
                 arrayTemp[i] = (ushort)(nbr1[i] - nbr2[i]);
             }
 
-            for(int i = 7; i > 1; i--)
+            for (int i = 7; i > 1; i--)
             {
-                if(arrayTemp[i] == -1)
+                if (arrayTemp[i] == -1)
                 {
                     nbr2[i - 1]++;
                     nbr1[i] += 2;
                 }
-                if(nbr1[i] < nbr2[i])
+                if (nbr1[i] < nbr2[i])
                 {
                     nbr2[i - 1]++;
                     nbr1[i] += 2;
@@ -193,7 +207,7 @@ namespace CalculetteBinaire
                 arrayRes[i] = (ushort)(nbr1[i] - nbr2[i]);
             }
 
-            if(nbr1[0] >= nbr2[0])
+            if (nbr1[0] >= nbr2[0])
             {
                 arrayRes[0] = (ushort)(nbr1[0] - nbr2[0]);
             }
@@ -204,24 +218,6 @@ namespace CalculetteBinaire
             binaire = arrayRes;
 
             return ok;
-
-
-        }
-
-        private void arr(ushort[] array)
-        {
-            Afficheur.Text += "     ";
-            for(int i = 0; i < array.Length; i++)
-            {
-                Afficheur.Text += array[i];
-            }
-        }
-
-        private string Soustraction(string nbr1, string nbr2)
-        {
-            string sum = Convert.ToString(Convert.ToInt32(nbr1, 2) - Convert.ToInt32(nbr2, 2), 2).PadLeft(4, '0');
-
-            return sum;
         }
 
         private string Multiplication(string nbr1, string nbr2)
@@ -238,20 +234,16 @@ namespace CalculetteBinaire
             return sum;
         }
 
-        private double CheckValue(string prop)
+        private bool CheckValue(string binaire)
         {
-            string value = Afficheur.Text.Substring(Afficheur.Text.LastIndexOf(prop) + 1).ToString();
-            double nbr;
-            double.TryParse(value, out nbr);
-
-            return nbr;
+            return (double.TryParse(binaire, out _));
         }
 
         private ushort[] FillArray(string binaire)
         {
             ushort[] array = new ushort[8];
 
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 array[i] = 0;
             }

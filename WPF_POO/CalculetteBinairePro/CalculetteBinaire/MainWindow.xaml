@@ -5,18 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculetteBinaire"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="400">
+        Title="MainWindow" Height="700" Width="400">
     <Grid>
-        <StackPanel>
-            <TextBlock x:Name="txtBAfficheur" HorizontalAlignment="Right"></TextBlock>
-            <Button x:Name="btnZero" Click="AddValue">0</Button>
-            <Button x:Name="btnUn" Click="AddValue">1</Button>
-            <Button x:Name="btnPlus" Click="AddProp">+</Button>
-            <Button x:Name="btnMoins" Click="AddProp">-</Button>
-            <Button x:Name="btnFois" Click="AddProp">x</Button>
-            <Button x:Name="btnDivise" Click="AddProp">÷</Button>
-            <Button x:Name="btnCalculer" Click="Calculer">Calculer</Button>
-            <Button x:Name="btnClear" Click="Clear">C</Button>
-        </StackPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="txtBAfficheur" HorizontalAlignment="Stretch" Background="Gray"  Grid.ColumnSpan="2" Grid.Row="0" VerticalAlignment="Stretch" FontSize="20" TextAlignment="Right"/>
+
+        <WrapPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <WrapPanel  Margin="0 20 0 20">
+                <Button Grid.Row="1" x:Name="btnPlus" Click="AddProp" Width="100" Height="100" Margin="0 0 20 0" FontSize="60">+</Button>
+                <Button Grid.Row="1" Grid.Column="1" x:Name="btnMoins" Click="AddProp" Width="100" Height="100" FontSize="60">-</Button>
+            </WrapPanel>
+
+            <WrapPanel Margin=" 0 20 0 0">
+                <Button Grid.Row="1" x:Name="btnFois" Click="AddProp" Width="100" Height="100"  Margin="0 0 20 0" FontSize="60">x</Button>
+                <Button Grid.Row="1" Grid.Column="1" x:Name="btnDivise" Click="AddProp" Width="100" Height="100" FontSize="60">÷</Button>
+            </WrapPanel>
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="btnZero" Click="AddValue" Content="0"  Height="100" Width="100" Margin="0 0 20 0" FontSize="70"/>
+            <Button x:Name="btnUn" Click="AddValue" Content="1" Height="100" Width="100" FontSize="70"/>
+        </WrapPanel>
+        <WrapPanel Grid.Row="3" Grid.ColumnSpan="2">
+            <Button x:Name="btnCalculer" Click="Calculer" Content="Calculer"  Margin="10 10 10 10"  FontSize="80"/>
+            <Button x:Name="btnClear" Click="Clear"  Content="C" Margin="10 10 10 10" Width="50" Height="50" FontSize="30" Foreground="Red"></Button>
+        </WrapPanel>
+
     </Grid>
 </Window>
