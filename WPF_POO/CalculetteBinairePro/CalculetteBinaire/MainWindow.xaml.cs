@@ -23,7 +23,7 @@ namespace CalculetteBinaire
         TextBlock Afficheur;
         string FirstNbr;
         string SecondNbr;
-        int SpacesNbr = 0;
+        int SpacesNbr = 1;
         string CurrentProp = "";
         public MainWindow()
         {
@@ -49,7 +49,7 @@ namespace CalculetteBinaire
             {
                 CurrentProp = (e.Source as Button).Content.ToString();
                 FirstNbr = Afficheur.Text.Replace(" ", "");
-                Afficheur.Text += CurrentProp + " ";
+                Afficheur.Text += " " + CurrentProp + " ";
                 SpacesNbr = 1;
             }
         }
@@ -236,7 +236,7 @@ namespace CalculetteBinaire
 
         private bool CheckValue(string binaire)
         {
-            return (double.TryParse(binaire, out _));
+            return double.TryParse(binaire, out _);
         }
 
         private ushort[] FillArray(string binaire)
@@ -248,6 +248,7 @@ namespace CalculetteBinaire
                 array[i] = 0;
             }
             //Afficheur.Text = binaire.Length.ToString();
+            binaire.Replace(" ", "");
             for (int i = 0; i < binaire.Length; i++)
             {
                 array[7 - i] = ushort.Parse(binaire[binaire.Length - 1 - i].ToString());

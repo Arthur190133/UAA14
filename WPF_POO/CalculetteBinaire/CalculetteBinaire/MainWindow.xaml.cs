@@ -52,8 +52,8 @@ namespace CalculetteBinaire
             {
                 CurrentProp = (e.Source as Button).Content.ToString();
                 FirstNbr = Afficheur.Text.Replace(" ", "");
-                Afficheur.Text += CurrentProp + " ";
-                SpacesNbr = 1;
+                Afficheur.Text += " " + CurrentProp + " ";
+                SpacesNbr = 0;
             }
         }
 
@@ -75,11 +75,13 @@ namespace CalculetteBinaire
             switch (CurrentProp)
             {
                 case "+":
-                    affichage = calculateur.Addition();
+                    affichage = calculateur.binaireToString(calculateur.Add(calculateur.FillArray(FirstNbr.ToString()), calculateur.FillArray(calculateur.DeuxiemeBinaire.ToString())));
                     break;
 
                 case "-":
-                    affichage = calculateur.Soustraction();
+                    ushort[] bin = new ushort[8];
+                    calculateur.Sous(calculateur.FillArray(FirstNbr.ToString()), calculateur.FillArray(calculateur.DeuxiemeBinaire.ToString()), ref bin);
+                    affichage = calculateur.binaireToString(bin);
                     break;
 
                 case "x":
