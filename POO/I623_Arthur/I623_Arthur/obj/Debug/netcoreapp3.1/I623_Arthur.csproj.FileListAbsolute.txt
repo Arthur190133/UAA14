@@ -1,0 +1,14 @@
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\bin\Debug\netcoreapp3.1\I623_Arthur.exe
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\bin\Debug\netcoreapp3.1\I623_Arthur.deps.json
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\bin\Debug\netcoreapp3.1\I623_Arthur.runtimeconfig.json
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\bin\Debug\netcoreapp3.1\I623_Arthur.runtimeconfig.dev.json
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\bin\Debug\netcoreapp3.1\I623_Arthur.dll
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\bin\Debug\netcoreapp3.1\I623_Arthur.pdb
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.AssemblyInfoInputs.cache
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.AssemblyInfo.cs
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.dll
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.pdb
+C:\Users\190133.asty-moulin\Desktop\I623_Arthur\I623_Arthur\obj\Debug\netcoreapp3.1\I623_Arthur.genruntimeconfig.cache
