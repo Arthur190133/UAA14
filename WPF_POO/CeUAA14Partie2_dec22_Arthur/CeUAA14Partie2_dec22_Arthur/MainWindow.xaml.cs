@@ -20,28 +20,32 @@ namespace CeUAA14Partie2_dec22_Arthur
     /// </summary>
     public partial class MainWindow : Window
     {
-        TextBlock[] cases = new TextBlock[100];
-        int AncienneValeur;
-        int totalJoueur;
-        int reste;
-        int[] positionPionJoueur = new int[2];
+        int totalJoueur = 4;
+        int[] PlayersPawnLocation = new int[4];
+        string[] PlayersPawn = new string[4];
+
+       
         public MainWindow()
         {
+            PlayersPawnLocation[0] = 0;
+            PlayersPawn[0] = "X";
+
             InitializeComponent();
             InitializeInterface();
         }
 
         private void InitializeInterface()
         {
-            for(int i = 0; i < 100; i++)
+            for(int i = 0; i <= 100; i++)
             {
-                plateau.Children.Insert(i, new TextBlock());
+                plateau.Children.Add(new TextBlock());
             }
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
                     int value;
+                    
                     if (i % 2 == 0)
                     {
                         value = (10 * i) + j + 1;
@@ -50,22 +54,22 @@ namespace CeUAA14Partie2_dec22_Arthur
                     {
                         value = (10 * i) + 10 - j;
                     }
-                    (plateau.Children[i*10 + j] as TextBlock).Text = value.ToString();
+                    TextBlock textBlock = (TextBlock)plateau.Children[(10 * i) + j];
+                    textBlock.Text = value.ToString();
                     if(value % 2 == 0)
                     {
-                        (plateau.Children[i * 10 + j] as TextBlock).Background = Brushes.Aqua;
+                        textBlock.Background = Brushes.Aqua;
                     }
                     else
                     {
-                        (plateau.Children[i * 10 + j] as TextBlock).Background = Brushes.Red;
+                        textBlock.Background = Brushes.Red;
                     }
-                    (plateau.Children[i * 10 + j] as TextBlock).Height = 50;
-                    (plateau.Children[i * 10 + j] as TextBlock).Width = 50;
+                    textBlock.Height = 50;
+                    textBlock.Width = 50;
+                    textBlock.Name = "Value" + value.ToString();
                 }
             }
-            AncienneValeur = 0;
-            
-            SetX(0);
+            SetPawn(0, PlayersPawn[0]);
         }
 
         private void Jouer (object sender, RoutedEventArgs e)
@@ -74,70 +78,38 @@ namespace CeUAA14Partie2_dec22_Arthur
             int De = random.Next(1, 7);
             de.Text = "Dé : " + De.ToString();
 
-
-
-            if(AncienneValeur + De >= 100)
+            if(PlayersPawnLocation[0] + De >= 100)
             {
-                SetX(99);
+                SetPawn(99, PlayersPawn[0]);
                 mot.Text = "Fin !";
                 btnJouer.IsEnabled = false;
             }
             else
             {
-                SetX(AncienneValeur + De);
+                SetPawn(PlayersPawnLocation[0] + De, PlayersPawn[0]);
             }
-            
-
-
-            /*totalJoueur += De;
-            reste = totalJoueur - 10 * (positionPionJoueur[0] + 1);
-
-            if(reste < 0)
-            {
-                reste += 10;
-            }
-            else
-            {
-                positionPionJoueur[0] += 1;
-            }
-
-            if(positionPionJoueur[0] %2 != 0)
-            {
-                positionPionJoueur[1] = 9 - reste;
-            }
-            else
-            {
-                positionPionJoueur[1] = reste;
-            }
-
-            if(positionPionJoueur[0] <= 9)
-            {
-                SetX(positionPionJoueur[1] + (10 * positionPionJoueur[0]));
-            }
-            else
-            {
-                SetX(99);
-                mot.Text = "Fin !";
-                btnJouer.IsEnabled = false;
-            }*/
         }
 
-        private void SetX(int  Newvalue)
+        private void SetPawn(int  Newvalue,string Pawn)
         {
-            if((AncienneValeur + Newvalue).ToString().ElementAt(1) % 2 != 0)
+            TextBlock textBlock = plateau.Children.OfType<TextBlock>().FirstOrDefault(x => x.Text == Pawn);
+            if(textBlock != null)
             {
-
+                textBlock.Text = (PlayersPawnLocation[0] + 1).ToString();
+                textBlock.Foreground = Brushes.Black;
             }
 
-            (plateau.Children[AncienneValeur] as TextBlock).Text = (AncienneValeur + 1).ToString();
-            //cases[AncienneValeur].Text = (AncienneValeur + 1 ).ToString();
-            (plateau.Children[AncienneValeur] as TextBlock).Foreground = Brushes.Black;
-            //cases[AncienneValeur].Foreground = Brushes.Black;
-            AncienneValeur = Newvalue;
-            (plateau.Children[AncienneValeur] as TextBlock).Text = "X";
-            //cases[AncienneValeur].Text = "X";
-            (plateau.Children[AncienneValeur] as TextBlock).Foreground = Brushes.Gold;
-            //cases[AncienneValeur].Foreground = Brushes.Gold;
+
+            PlayersPawnLocation[0] = Newvalue;
+            TextBlock newTextBlock = plateau.Children.OfType<TextBlock>().FirstOrDefault(x => x.Text == (PlayersPawnLocation[0] + 1).ToString());
+            if (newTextBlock != null)
+            {
+                //test.Text = "index" + PlayersPawnLocation[0].ToString() + "value" + newTextBlock.Text;
+                newTextBlock.Text = Pawn;
+                newTextBlock.Foreground = Brushes.Gold;
+                
+            }
+
 
         }
     }

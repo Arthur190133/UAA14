@@ -1,0 +1,31 @@
+﻿<Window x:Class="CeUAA14Partie2_dec22_Arthur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CeUAA14Partie2_dec22_Arthur"
+        mc:Ignorable="d"
+        Title="SERPENTS ET ECHELLES" Height="700" Width="700" Background="#FF5DB188" FontSize="30">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Center" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0">
+            <TextBlock>SERPENTS ET ECHELLES</TextBlock>
+        </StackPanel>
+        <Grid x:Name="gridPlateau" Grid.Column="0" Grid.Row="1">
+            <Frame x:Name="Frame"></Frame>
+        </Grid>
+        <StackPanel  Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" VerticalAlignment="Center" Height="350" Background="#FFC38F3D" Margin=" 0 0 20 0">
+            <TextBlock x:Name="mot" Margin=" 0 20 0 0">Joueur 1</TextBlock>
+            <TextBlock x:Name="de" Margin="0 20 0 50">Dé :</TextBlock>
+            <Button x:Name="btnJouer" Click="Jouer">JOUER</Button>
+        </StackPanel>
+    </Grid>
+</Window>
