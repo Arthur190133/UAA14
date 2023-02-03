@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
+      "projectUniqueName": "H:\\test\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
       "projectName": "ACT6_Heritages",
-      "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
+      "projectPath": "H:\\test\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
       "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\obj\\",
+      "outputPath": "H:\\test\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

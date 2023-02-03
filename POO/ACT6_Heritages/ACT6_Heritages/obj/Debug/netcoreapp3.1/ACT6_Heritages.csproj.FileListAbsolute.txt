@@ -1,0 +1,14 @@
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\bin\Debug\netcoreapp3.1\ACT6_Heritages.exe
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\bin\Debug\netcoreapp3.1\ACT6_Heritages.deps.json
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\bin\Debug\netcoreapp3.1\ACT6_Heritages.runtimeconfig.json
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\bin\Debug\netcoreapp3.1\ACT6_Heritages.runtimeconfig.dev.json
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\bin\Debug\netcoreapp3.1\ACT6_Heritages.dll
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\bin\Debug\netcoreapp3.1\ACT6_Heritages.pdb
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.csproj.AssemblyReference.cache
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.GeneratedMSBuildEditorConfig.editorconfig
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.AssemblyInfoInputs.cache
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.AssemblyInfo.cs
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.csproj.CoreCompileInputs.cache
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.dll
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.pdb
+H:\test\UAA14\POO\ACT6_Heritages\ACT6_Heritages\obj\Debug\netcoreapp3.1\ACT6_Heritages.genruntimeconfig.cache

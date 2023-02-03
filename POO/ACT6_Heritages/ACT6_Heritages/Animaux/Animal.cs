@@ -92,6 +92,11 @@ namespace ACT6_Heritages.Animaux
 
         }
 
+        public override string ToString()
+        {
+            return "je m'appelle " + _nom + " je suis née le " + _dateNaissance + " ma puce est " + _numPuce + "je fais " + _taille + " de hauteur" + " je fais les concours ? " + _concours;
+        }
+
     }
 
 
