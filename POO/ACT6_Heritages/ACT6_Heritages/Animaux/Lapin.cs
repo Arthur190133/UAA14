@@ -6,7 +6,7 @@ namespace ACT6_Heritages.Animaux
 {
     class Lapin : Animal
     {
-        private float _tailleOrreilles;
+        private float _tailleOreilles;
         public Lapin(string nom, DateTime date, int numPuce, float taille, bool concours, float tailleOrreiles) : base(nom, date, numPuce, taille, concours)
         {
             _nom = nom;
@@ -14,18 +14,18 @@ namespace ACT6_Heritages.Animaux
             _numPuce = numPuce;
             _taille = taille;
             _concours = concours;
-            _tailleOrreilles = tailleOrreiles;
+            _tailleOreilles = tailleOrreiles;
         }
 
         public float TailleOrreilles
         {
             get
             {
-                return _tailleOrreilles;
+                return _tailleOreilles;
             }
             set
             {
-                _tailleOrreilles = value;
+                _tailleOreilles = value;
             }
         }
 
@@ -36,7 +36,7 @@ namespace ACT6_Heritages.Animaux
 
         public override string ToString()
         {
-            string moi = "je m'appelle " + _nom + " je suis née le " + _dateNaissance + " ma puce est " + _numPuce + "je fais " + _taille + " de hauteur" + " je fais les concours ? " + _concours + " mes oreilles font " + _tailleOrreilles;
+            string moi = "je m'appelle " + _nom + " je suis née le " + _dateNaissance + " ma puce est " + _numPuce + "je fais " + _taille + " de hauteur" + " je fais les concours ? " + _concours + " mes oreilles font " + _tailleOreilles;
 
             return moi;
         }
