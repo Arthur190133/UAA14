@@ -23,15 +23,11 @@ namespace ACT6_Heritages.Animaux
             {
                 return _tailleOreilles;
             }
-            set
-            {
-                _tailleOreilles = value;
-            }
         }
 
-        public void Sauter()
+        public string Sauter()
         {
-            
+            return "Jm'envole";
         }
 
         public override string ToString()

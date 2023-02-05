@@ -1,0 +1,14 @@
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.csproj.AssemblyReference.cache
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.AssemblyInfoInputs.cache
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.AssemblyInfo.cs
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.csproj.CoreCompileInputs.cache
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\bin\Debug\netcoreapp3.1\ACT6_HeritagesEX3.exe
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\bin\Debug\netcoreapp3.1\ACT6_HeritagesEX3.deps.json
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\bin\Debug\netcoreapp3.1\ACT6_HeritagesEX3.runtimeconfig.json
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\bin\Debug\netcoreapp3.1\ACT6_HeritagesEX3.runtimeconfig.dev.json
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\bin\Debug\netcoreapp3.1\ACT6_HeritagesEX3.dll
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\bin\Debug\netcoreapp3.1\ACT6_HeritagesEX3.pdb
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.dll
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.pdb
+C:\Users\ryckb\Documents\GIT\UAA14\POO\ACT6_HeritagesEX3\ACT6_HeritagesEX3\obj\Debug\netcoreapp3.1\ACT6_HeritagesEX3.genruntimeconfig.cache

@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ryckb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\test\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
+      "projectUniqueName": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
       "projectName": "ACT6_Heritages",
-      "projectPath": "H:\\test\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
-      "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
-      "outputPath": "H:\\test\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\obj\\",
+      "projectPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\ACT6_Heritages.csproj",
+      "packagesPath": "C:\\Users\\ryckb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\POO\\ACT6_Heritages\\ACT6_Heritages\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\190133.asty-moulin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ryckb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

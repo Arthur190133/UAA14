@@ -14,9 +14,9 @@ namespace ACT6_Heritages.Animaux
             _taille = taille;
             _concours = concours;
         }
-        public void Aboyer()
+        public string Aboyer()
         {
-            
+            return "Woof";
         }
     }
 }

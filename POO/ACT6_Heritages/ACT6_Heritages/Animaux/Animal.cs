@@ -27,10 +27,6 @@ namespace ACT6_Heritages.Animaux
             {
                 return _nom;
             }
-            set
-            {
-                _nom = value;
-            }
         }
 
         public DateTime DateNaissance
@@ -38,10 +34,6 @@ namespace ACT6_Heritages.Animaux
             get
             {
                 return _dateNaissance;
-            }
-            set
-            {
-                _dateNaissance = value;
             }
         }
 
@@ -51,10 +43,6 @@ namespace ACT6_Heritages.Animaux
             {
                 return _numPuce;
             }
-            set
-            {
-                _numPuce = value;
-            }
         }
 
         public float Taille
@@ -63,10 +51,6 @@ namespace ACT6_Heritages.Animaux
             {
                 return _taille;
             }
-            set
-            {
-                _taille = value;
-            }
         }
 
         public bool Concours
@@ -74,10 +58,6 @@ namespace ACT6_Heritages.Animaux
             get
             {
                 return _concours;
-            }
-            set
-            {
-                _concours = value;
             }
         }
 

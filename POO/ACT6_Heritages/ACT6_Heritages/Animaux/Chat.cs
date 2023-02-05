@@ -14,14 +14,14 @@ namespace ACT6_Heritages.Animaux
             _taille = taille;
             _concours = concours;
         }
-        public void Miauler()
+        public string Miauler()
         {
-
+            return "Meow";
         }
 
-        public void Ronronner()
+        public string Ronronner()
         {
-
+            return "Rrrrrr";
         }
     }
 }
