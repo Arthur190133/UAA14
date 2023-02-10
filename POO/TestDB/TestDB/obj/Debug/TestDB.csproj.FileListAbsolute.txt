@@ -1,0 +1,8 @@
+H:\UAA14\POO\TestDB\TestDB\obj\Debug\TestDB.csproj.CoreCompileInputs.cache
+H:\UAA14\POO\TestDB\TestDB\bin\Debug\TestDB.exe.config
+H:\UAA14\POO\TestDB\TestDB\bin\Debug\TestDB.exe
+H:\UAA14\POO\TestDB\TestDB\bin\Debug\TestDB.pdb
+H:\UAA14\POO\TestDB\TestDB\obj\Debug\TestDB.exe
+H:\UAA14\POO\TestDB\TestDB\obj\Debug\TestDB.pdb
+H:\UAA14\POO\TestDB\TestDB\obj\Debug\TestDB.csproj.AssemblyReference.cache
+H:\UAA14\POO\TestDB\TestDB\bin\Debug\Comptoirs.accdb
