@@ -1,0 +1,16 @@
+H:/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.csproj.CoreCompileInputs.cache
+H:/UAA14/POO/TestDB/TestDB/bin/Debug/TestDB.exe.config
+H:/UAA14/POO/TestDB/TestDB/bin/Debug/TestDB.exe
+H:/UAA14/POO/TestDB/TestDB/bin/Debug/TestDB.pdb
+H:/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.exe
+H:/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.pdb
+H:/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.csproj.AssemblyReference.cache
+H:/UAA14/POO/TestDB/TestDB/bin/Debug/Comptoirs.accdb
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/bin/Debug/Comptoirs.accdb
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/bin/Debug/TestDB.exe.config
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/bin/Debug/TestDB.exe
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/bin/Debug/TestDB.pdb
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.csproj.AssemblyReference.cache
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.csproj.CoreCompileInputs.cache
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.exe
+/Users/arthur/Documents/git/UAA14/POO/TestDB/TestDB/obj/Debug/TestDB.pdb
