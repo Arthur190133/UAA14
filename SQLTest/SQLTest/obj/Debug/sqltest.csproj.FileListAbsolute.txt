@@ -1,0 +1,7 @@
+C:\Users\softlocal\Desktop\sqltest\sqltest\bin\Debug\sqltest.exe.config
+C:\Users\softlocal\Desktop\sqltest\sqltest\bin\Debug\sqltest.exe
+C:\Users\softlocal\Desktop\sqltest\sqltest\bin\Debug\sqltest.pdb
+C:\Users\softlocal\Desktop\sqltest\sqltest\obj\Debug\sqltest.csproj.AssemblyReference.cache
+C:\Users\softlocal\Desktop\sqltest\sqltest\obj\Debug\sqltest.csproj.CoreCompileInputs.cache
+C:\Users\softlocal\Desktop\sqltest\sqltest\obj\Debug\sqltest.exe
+C:\Users\softlocal\Desktop\sqltest\sqltest\obj\Debug\sqltest.pdb

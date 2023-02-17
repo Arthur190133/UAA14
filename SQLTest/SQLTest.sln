@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqltest", "sqltest\sqltest.csproj", "{74D9E4ED-D44C-47E9-A9C7-E4FA00110A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D9E4ED-D44C-47E9-A9C7-E4FA00110A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D9E4ED-D44C-47E9-A9C7-E4FA00110A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D9E4ED-D44C-47E9-A9C7-E4FA00110A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D9E4ED-D44C-47E9-A9C7-E4FA00110A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCF0D141-5C0C-496D-8D39-A82DE3E7BC8A}
+	EndGlobalSection
+EndGlobal
