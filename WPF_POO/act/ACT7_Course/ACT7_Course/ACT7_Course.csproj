@@ -7,4 +7,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="dog.png" />
+    <None Remove="racetrack.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dog.png" />
+    <Resource Include="racetrack.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

@@ -24,6 +24,12 @@ namespace ACT7_Course
             get { return _position; }
         }
 
+        public Image image
+        {
+            get { return _image; }
+            set { _image = value; }
+        }
+
         public Chien(int numero, Image image)
         {
             _numero = numero;

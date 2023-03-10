@@ -13,6 +13,21 @@ namespace ACT7_Course
         private Chien _chien;
         private int _mise;
 
+        public Personne Personne
+        {
+            get { return _personne; }
+        }
+
+        public Chien Chien
+        {
+            get { return _chien; }
+        }
+
+        public int Mise
+        {
+            get { return _mise; }
+        }
+
         public Pari(Personne personne ,Chien chien, int mise)
         {
             _personne = personne;

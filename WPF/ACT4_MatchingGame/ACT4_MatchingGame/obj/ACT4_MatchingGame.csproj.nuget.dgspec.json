@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj": {}
+    "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj": {
+    "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj",
+        "projectUniqueName": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj",
         "projectName": "ACT4_MatchingGame",
-        "projectPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj",
-        "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\190133.asty-moulin\\Documents\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\obj\\",
+        "projectPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\ACT4_MatchingGame.csproj",
+        "packagesPath": "C:\\Users\\ryckb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF\\ACT4_MatchingGame\\ACT4_MatchingGame\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\190133.asty-moulin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ryckb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
