@@ -172,7 +172,7 @@ namespace ACT7_Course
             {
                 if (paris[i].Chien.Numero == WinnerIndex)
                 {
-                    personnes[i].Argent += paris[i].Mise * 2;
+                    personnes[i].UpdateWallet(personnes[i].Argent + (paris[i].Mise * 2));
                 }
             }
         }
@@ -272,7 +272,7 @@ namespace ACT7_Course
         {
             for(int i = 0; i < personnes.Length; i++)
             {
-                personnes[i].Argent -= paris[i].Mise;
+                personnes[i].UpdateWallet(personnes[i].Argent - paris[i].Mise);
             }
 
             UpdateParieursPanel();

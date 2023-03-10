@@ -20,7 +20,6 @@ namespace ACT7_Course
         public int Argent
         {
             get { return _argent; }
-            set { _argent = value; }
         }
 
         public Personne(string nom, int argent)
