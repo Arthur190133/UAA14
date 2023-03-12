@@ -102,7 +102,7 @@ namespace ACT7_Course
                     Pari? pariPersonne = paris.FirstOrDefault(pari => pari.Personne == personnes[i]);
                     if (pariPersonne != null)
                     {
-                        textBlockPersonne.Text = personnes[i].Nom + " a parié " + pariPersonne.Mise + " écus sur le chiens numéro " + pariPersonne.Chien.Numero + 1;
+                        textBlockPersonne.Text = personnes[i].Nom + " a parié " + pariPersonne.Mise + " écus sur le chiens numéro " + (pariPersonne.Chien.Numero + 1);
                     }
                     else
                     {
