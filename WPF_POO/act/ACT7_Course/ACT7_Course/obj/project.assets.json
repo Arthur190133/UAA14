@@ -1,38 +1,42 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ryckb\\.nuget\\packages\\": {}
+    "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF_POO\\act\\ACT7_Course\\ACT7_Course\\ACT7_Course.csproj",
+      "projectUniqueName": "C:\\Users\\190133.asty-moulin\\Desktop\\ACT7_Course\\ACT7_Course\\ACT7_Course.csproj",
       "projectName": "ACT7_Course",
-      "projectPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF_POO\\act\\ACT7_Course\\ACT7_Course\\ACT7_Course.csproj",
-      "packagesPath": "C:\\Users\\ryckb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\WPF_POO\\act\\ACT7_Course\\ACT7_Course\\obj\\",
+      "projectPath": "C:\\Users\\190133.asty-moulin\\Desktop\\ACT7_Course\\ACT7_Course\\ACT7_Course.csproj",
+      "packagesPath": "C:\\Users\\190133.asty-moulin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\190133.asty-moulin\\Desktop\\ACT7_Course\\ACT7_Course\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ryckb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\190133.asty-moulin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,8 +47,8 @@
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -63,7 +67,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
       }
     }
   }

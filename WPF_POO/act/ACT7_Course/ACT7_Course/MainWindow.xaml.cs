@@ -52,6 +52,15 @@ namespace ACT7_Course
             }
         }
 
+        private void ClearChien()
+        {
+            for (int i = 0; i < chiens.Length; i++)
+            {
+                CanvasChiens.Children.Remove(chiens[i].image);
+                chiens[i].image.Source = null ;
+            }
+        }
+
         private void InitializePari()
         {
             for (int i = 0; i < paris.Length; i++)
@@ -172,7 +181,7 @@ namespace ACT7_Course
             {
                 if (paris[i].Chien.Numero == WinnerIndex)
                 {
-                    personnes[i].UpdateWallet(personnes[i].Argent + (paris[i].Mise * 2));
+                    personnes[i].UpdateWallet((paris[i].Mise * 2));
                 }
             }
         }
@@ -272,7 +281,7 @@ namespace ACT7_Course
         {
             for(int i = 0; i < personnes.Length; i++)
             {
-                personnes[i].UpdateWallet(personnes[i].Argent - paris[i].Mise);
+                personnes[i].UpdateWallet(- paris[i].Mise);
             }
 
             UpdateParieursPanel();
@@ -289,21 +298,22 @@ namespace ACT7_Course
             UpdateParieursPanel();
             InitializePari();
             UpdateParieursState();
-            
-            
+            IsRaceStarted = false;
+
+
+
         }
 
         private void ResetButton_Click(object sender, RoutedEventArgs e)
         {
-            if (!IsRaceStarted)
-            {
                 InitializePari();
                 InitializePersonne();
-                UpdateParieursPanel();
-                UpdateParieursState();
+                ClearChien();
+                InitializeChien();
+                InitializeInterface();
+
                 ecusNombre.Text = null;
                 chienNombre.Text = null;
-            }
             
         }
 
