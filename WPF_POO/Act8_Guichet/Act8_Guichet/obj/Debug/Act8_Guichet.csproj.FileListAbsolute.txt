@@ -1,0 +1,15 @@
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.csproj.AssemblyReference.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\MainWindow.g.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\App.g.cs
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet_MarkupCompile.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet_MarkupCompile.lref
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\bin\Debug\Act8_Guichet.exe.config
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\bin\Debug\Act8_Guichet.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\bin\Debug\Act8_Guichet.pdb
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\MainWindow.baml
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.g.resources
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.Properties.Resources.resources
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.csproj.GenerateResource.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.csproj.CoreCompileInputs.cache
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.exe
+C:\Users\190133.asty-moulin\Documents\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\Act8_Guichet.pdb
