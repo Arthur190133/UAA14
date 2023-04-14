@@ -20,7 +20,7 @@ namespace Act8_Guichet.Classes.Comptes
 
         public override bool Retrait(float montant, Compte compte)
         {
-            if(montant > Money)
+            if(montant > Money && (Money - montant) < _maxDecouvert)
             {
                 return false;
             }

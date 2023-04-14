@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4zLIXBru+2upK+AWJOKVn6XjLP041m2MA7ptZlXB/k6BkmjLiuqO6OvopV0K+kJof+l18Ma/uirogttN5iZlw==",
+  "dgSpecHash": "AOMwWM7PAbdJvkj6ydm/rMzp1HwruTJ+nXLYum9vA39DyQIlSZ6kXLPg/Hx05/LGg2gmqXP0Vnv1EjeeZeVJ3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\190133.asty-moulin\\Desktop\\ACT7_Course\\ACT7_Course\\ACT7_Course.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\git\\UAA14\\WPF_POO\\act\\ACT7_Course\\ACT7_Course\\ACT7_Course.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arthur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\arthur\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

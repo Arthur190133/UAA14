@@ -25,9 +25,9 @@ namespace Act8_Guichet
         public MainWindow()
         {
             InitializeComponent();
-            Personne personne = new Personne();
-            Compte_epargne compte = new Compte_epargne(0, "1234", personne, DateTime.Now, 150);
-            compte.Retrait(15, compte);
+            //Personne personne = new Personne();
+            //Compte_epargne compte = new Compte_epargne(0, "1234", personne, DateTime.Now, 150);
+            //compte.Retrait(15, compte);
         }
     }
 }

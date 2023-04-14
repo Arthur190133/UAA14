@@ -34,8 +34,15 @@ namespace Act8_Guichet.Classes.Comptes
                     {
                         compte.AddMoney(cache_removed_money);
                     }
+                    else
+                    {
+                        return false;
+                    }
                 }
-
+                else
+                {
+                    return false;
+                }
                 //AddMoney(cache_removed_money);
                 return true;
             }
