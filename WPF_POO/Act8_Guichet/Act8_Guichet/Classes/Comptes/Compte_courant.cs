@@ -11,10 +11,16 @@ namespace Act8_Guichet.Classes.Comptes
     {
         private double _number;
         private int _maxDecouvert;
+        
 
-        public Compte_courant(double number, int maxDecouvert, string id, Personne personne, DateTime creationDate, float money) : base( id,  personne,  creationDate,  money)
+        public Compte_courant(double number, int maxDecouvert, string id, Personne personne, DateTime creationDate, float money)
         {
-
+            _id = id;
+            _owner = personne;
+            _creationDate = creationDate;
+            _money = money;
+            _maxDecouvert = maxDecouvert;
+            _number = numbre;
         }
 
 
