@@ -14,14 +14,6 @@ namespace Act8_Guichet.Classes.Comptes
         private DateTime _creationDate;
         private float _money;
 
-        public Compte(string id, Personne personne, DateTime creationDate, float money)
-        {
-            _id = id;
-            _owner = personne;
-            _creationDate = creationDate;
-            _money = money;
-        }
-
         public string Id
         {
             get
@@ -64,10 +56,7 @@ namespace Act8_Guichet.Classes.Comptes
             _money += money;
         }
 
-        public virtual bool Retrait(float monant, Compte compte)
-        {
-            return false;
-        }
+        public abstract bool Retrait(float monant, Compte compte);
     }
 
 
