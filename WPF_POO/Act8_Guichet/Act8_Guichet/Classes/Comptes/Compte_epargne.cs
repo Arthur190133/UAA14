@@ -10,10 +10,15 @@ namespace Act8_Guichet.Classes.Comptes
     class Compte_epargne : Compte
     {
         private float _taux;
+        
 
-        public Compte_epargne(float taux, string id, Personne personne, DateTime creationDate, float money) : base(id, personne, creationDate, money)
+        public Compte_epargne(float taux, string id, Personne personne, DateTime creationDate, float money)
         {
-
+            _id = id;
+            _owner = personne;
+            _creationDate = creationDate;
+            _money = money;
+            _taux = taux;
         }
 
         public override bool Retrait(float montant, Compte compte)
