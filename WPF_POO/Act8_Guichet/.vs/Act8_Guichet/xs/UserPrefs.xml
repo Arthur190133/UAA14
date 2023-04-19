@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Act8_Guichet/MainWindow.xaml">
+    <Files>
+      <File FileName="Act8_Guichet/MainWindow.xaml" Line="10" Column="130" />
+      <File FileName="Act8_Guichet/MainWindow.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Act8_Guichet" expanded="True">
+            <Node name="Act8_Guichet" expanded="True">
+              <Node name="MainWindow.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

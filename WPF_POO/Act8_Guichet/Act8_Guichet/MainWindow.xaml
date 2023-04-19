@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Frame Grid.Row ="1" Grid.RowSpan="4" Grid.ColumnSpan="2" Grid.Column="0" x:Name="main" NavigationUIVisibility="Hidden"/>
         <WrapPanel>
             <WrapPanel Orientation="Vertical">
                 <TextBlock>Votre compte épargne </TextBlock>
@@ -35,7 +36,7 @@
                     <TextBlock x:Name="soldeCourant">!!solde_courant</TextBlock>
                 </WrapPanel>
                 <WrapPanel>
-                    <Button Click="courantAjoutFond">Ajouter Fond</Button>
+                    <Button>Ajouter Fond</Button>
                     <TextBox x:Name="CourantAjoutFond" Width="50">0</TextBox>
                 </WrapPanel>
                 <WrapPanel>

@@ -15,12 +15,12 @@ namespace Act8_Guichet.Classes.Comptes
 
         public Compte_courant(double number, int maxDecouvert, string id, Personne personne, DateTime creationDate, float money)
         {
-            _id = id;
-            _owner = personne;
-            _creationDate = creationDate;
-            _money = money;
+            Id = id;
+            Owner = personne;
+            CreationDate = creationDate;
+            Money = money;
             _maxDecouvert = maxDecouvert;
-            _number = numbre;
+            _number = number;
         }
 
 

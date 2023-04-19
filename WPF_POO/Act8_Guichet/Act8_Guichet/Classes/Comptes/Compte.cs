@@ -7,7 +7,7 @@ using Act8_Guichet.Classes.Personnes;
 
 namespace Act8_Guichet.Classes.Comptes
 {
-    class Compte
+    abstract class Compte
     {
         private string _id;
         private Personne _owner;
@@ -19,7 +19,11 @@ namespace Act8_Guichet.Classes.Comptes
             get
             {
                 return _id;
-            } 
+            }
+            set
+            {
+                _id = value;
+            }
         }
 
         public Personne Owner
@@ -27,6 +31,10 @@ namespace Act8_Guichet.Classes.Comptes
             get
             {
                 return _owner;
+            }
+            set
+            {
+                _owner = value;
             }
         }
 
@@ -36,6 +44,7 @@ namespace Act8_Guichet.Classes.Comptes
             {
                 return _creationDate;
             }
+            set { _creationDate = value; }
         }
 
         public float Money
@@ -44,6 +53,7 @@ namespace Act8_Guichet.Classes.Comptes
             {
                 return _money;
             }
+            set {_money = value; }
         }
 
         protected void RemoveMoney(float money)

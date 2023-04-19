@@ -14,10 +14,10 @@ namespace Act8_Guichet.Classes.Comptes
 
         public Compte_epargne(float taux, string id, Personne personne, DateTime creationDate, float money)
         {
-            _id = id;
-            _owner = personne;
-            _creationDate = creationDate;
-            _money = money;
+            Id = id;
+            Owner = personne;
+            CreationDate = creationDate;
+            Money = money;
             _taux = taux;
         }
 
