@@ -9,7 +9,11 @@
       Title="Login">
 
     <Grid>
-        <TextBox>Id</TextBox>
-        <TextBox>Password</TextBox>
+        <WrapPanel Height="450" Width="800" Background="Gray">
+            <TextBox x:Name="LoginId"></TextBox>
+            <TextBox x:Name="LoginPassword">Password</TextBox>
+            <Button Click="LoginButton">Retirer Fond</Button>
+        </WrapPanel>
+
     </Grid>
 </Page>

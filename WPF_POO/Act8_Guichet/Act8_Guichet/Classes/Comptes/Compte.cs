@@ -56,7 +56,7 @@ namespace Act8_Guichet.Classes.Comptes
             set {_money = value; }
         }
 
-        protected void RemoveMoney(float money)
+        public void RemoveMoney(float money)
         {
             _money -= money;
         }

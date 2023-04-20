@@ -8,46 +8,5 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Frame Grid.Row ="1" Grid.RowSpan="4" Grid.ColumnSpan="2" Grid.Column="0" x:Name="main" NavigationUIVisibility="Hidden"/>
-        <WrapPanel>
-            <WrapPanel Orientation="Vertical">
-                <TextBlock>Votre compte épargne </TextBlock>
-                <WrapPanel>
-                    <TextBlock>Solde :</TextBlock>
-                    <TextBlock x:Name="soldeEpargne">!!solde_epargne</TextBlock>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Ajouter Fond</Button>
-                    <TextBox x:Name="EpargneAjoutFond" Width="50">0</TextBox>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Retirer Fond</Button>
-                    <TextBox x:Name="EpargneRetireFond" Width="50">0</TextBox>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Virement Fond</Button>
-                    <TextBox x:Name="EpargneVirementFond" Width="50">0</TextBox>
-                    <TextBox x:Name="EpargneVirementAdress" Width="150">Compte epargne id</TextBox>
-                </WrapPanel>
-            </WrapPanel>
-            <WrapPanel Orientation="Vertical">
-                <TextBlock>Votre compte courant</TextBlock>
-                <WrapPanel>
-                    <TextBlock>Solde :</TextBlock>
-                    <TextBlock x:Name="soldeCourant">!!solde_courant</TextBlock>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Ajouter Fond</Button>
-                    <TextBox x:Name="CourantAjoutFond" Width="50">0</TextBox>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Retirer Fond</Button>
-                    <TextBox x:Name="CourantRetireFond" Width="50">0</TextBox>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Virement Fond</Button>
-                    <TextBox x:Name="CourantVirementFond" Width="50">0</TextBox>
-                </WrapPanel>
-            </WrapPanel>
-        </WrapPanel>
     </Grid>
 </Window>

@@ -24,5 +24,10 @@ namespace Act8_Guichet.Vues
         {
             InitializeComponent();
         }
+
+        private void LoginButton(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

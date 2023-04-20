@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryckb\\Desktop\\bddvs\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj": {}
+    "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\DataBase\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryckb\\Desktop\\bddvs\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj": {
+    "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\DataBase\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryckb\\Desktop\\bddvs\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj",
+        "projectUniqueName": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\DataBase\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj",
         "projectName": "BaseDeDonne",
-        "projectPath": "C:\\Users\\ryckb\\Desktop\\bddvs\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj",
+        "projectPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\DataBase\\BaseDeDonne\\BaseDeDonne\\BaseDeDonne.csproj",
         "packagesPath": "C:\\Users\\ryckb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryckb\\Desktop\\bddvs\\BaseDeDonne\\BaseDeDonne\\obj\\",
+        "outputPath": "C:\\Users\\ryckb\\Documents\\GIT\\UAA14\\DataBase\\BaseDeDonne\\BaseDeDonne\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryckb\\AppData\\Roaming\\NuGet\\NuGet.Config",

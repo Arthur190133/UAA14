@@ -1,0 +1,74 @@
+﻿<Page x:Class="Act8_Guichet.Vues.Banque"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Act8_Guichet.Vues"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Banque">
+
+    <Grid Background="white">
+        <WrapPanel>
+            <WrapPanel Orientation="Vertical">
+                <TextBlock>Vos comptes épargnes</TextBlock>
+                <ListBox x:Name="listComptesEpargnes" Grid.Row="3" Grid.Column="1">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding CompteId}" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <WrapPanel>
+                    <TextBlock>Solde :</TextBlock>
+                    <TextBlock x:Name="soldeEpargne">!!solde_epargne</TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button Click="epargneAjoutFond">Ajouter Fond</Button>
+                    <TextBox x:Name="EpargneAjoutFond" Width="50">0</TextBox>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button Click="epargneRetireFond">Retirer Fond</Button>
+                    <TextBox x:Name="EpargneRetireFond" Width="50">0</TextBox>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button Click="epargneVirementFond">Virement Fond</Button>
+                    <TextBox x:Name="EpargneVirementFond" Width="50">0</TextBox>
+                    <ListBox x:Name="listComptesCourants" Grid.Row="3" Grid.Column="1">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding CompteId}" />
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </WrapPanel>
+            </WrapPanel>
+            <WrapPanel Orientation="Vertical">
+                <TextBlock>Vos comptes courants</TextBlock>
+                <ListBox x:Name="listVirementComptesCourants" Grid.Row="3" Grid.Column="1">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding CompteId}" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <WrapPanel>
+                    <TextBlock>Solde :</TextBlock>
+                    <TextBlock x:Name="soldeCourant">!!solde_courant</TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button Click="courantAjoutFond">Ajouter Fond</Button>
+                    <TextBox x:Name="CourantAjoutFond" Width="50">0</TextBox>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button>Retirer Fond</Button>
+                    <TextBox x:Name="CourantRetireFond" Width="50">0</TextBox>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button>Virement Fond</Button>
+                    <TextBox x:Name="CourantVirementFond" Width="50">0</TextBox>
+                </WrapPanel>
+            </WrapPanel>
+        </WrapPanel>
+    </Grid>
+</Page>

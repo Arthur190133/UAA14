@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\Mac\Home\Documents\newgit\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\
+C:\Users\ryckb\Documents\GIT\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\obj\Debug\
 Act8_Guichet
 none
 false
 DEBUG;TRACE
-\\Mac\Home\Documents\newgit\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\App.xaml
-2-1901816261
+C:\Users\ryckb\Documents\GIT\UAA14\WPF_POO\Act8_Guichet\Act8_Guichet\App.xaml
+3606014594
 
-11-1638924093
-13-1310406943
-MainWindow.xaml;Vues\Login.xaml;
+16-156406388
+29-675753000
+MainWindow.xaml;Vues\Banque.xaml;Vues\Login.xaml;
 
 True
 
