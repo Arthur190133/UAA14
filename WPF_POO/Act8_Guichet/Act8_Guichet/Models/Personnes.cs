@@ -18,29 +18,35 @@ namespace Act8_Guichet.Models
             _connexion = database;
         }
 
-        private MySqlDataAdapter SendRequest(string query)
+        private DataTable SendRequest(string query)
         {
             _connexion.Open();
 
             MySqlDataAdapter dataAdapter = new MySqlDataAdapter(query, _connexion);
-            DataSet infos = new DataSet();
-            dataAdapter.Fill(infos, "personnes");
+            DataTable infos = new DataTable();
+            dataAdapter.Fill(infos);
 
             _connexion.Close();
 
-            return dataAdapter;
+            return infos;
         }
 
-        public void read()
+        public DataTable read()
         {
             string query = "SELECT * FROM " + _table;
-            SendRequest(query);
+            return SendRequest(query);
         }
 
-        public void readById(int Id)
+        public DataTable readById(int Id)
         {
             string query = "SELECT * FROM " + _table + "WHERE Id = " + Id;
-            SendRequest(query);
+            return SendRequest(query);
+        }
+
+        public DataTable login(string name, string password)
+        {
+            string query = "SELECT * FROM " + _table + "WHERE Name = " + name + " AND Password = " + password;
+            return SendRequest(query);
         }
     }
 }

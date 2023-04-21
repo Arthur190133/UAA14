@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Act8_Guichet.Config;
+using Act8_Guichet.Models;
+using System.Data;
 
 namespace Act8_Guichet.Vues
 {
@@ -20,14 +23,22 @@ namespace Act8_Guichet.Vues
     /// </summary>
     public partial class Login : Page
     {
+        Personnes loginPerson;
+        Database database;
         public Login()
         {
             InitializeComponent();
+            database = new Database();
+            loginPerson = new Personnes(database.Connexion());
+
         }
 
         private void LoginButton(object sender, RoutedEventArgs e)
         {
-
+            string name = LoginName.Text;
+            string password = LoginPassword.Text;
+            DataView test = loginPerson.login(name, password).AsDataView();
+            Message.Text = test.ToString();
         }
     }
 }

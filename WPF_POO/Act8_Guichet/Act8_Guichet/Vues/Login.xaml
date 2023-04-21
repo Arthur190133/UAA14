@@ -10,10 +10,13 @@
 
     <Grid>
         <WrapPanel Height="450" Width="800" Background="Gray">
-            <TextBox x:Name="LoginId"></TextBox>
-            <TextBox x:Name="LoginPassword">Password</TextBox>
-            <Button Click="LoginButton">Retirer Fond</Button>
+            <TextBlock>Name</TextBlock>
+            <TextBox x:Name="LoginName" Width="80"></TextBox>
+            <TextBlock>Password</TextBlock>
+            <TextBox x:Name="LoginPassword" Width="80"></TextBox>
+            <Button Click="LoginButton">Login</Button>
         </WrapPanel>
+        <TextBlock Margin="0 20 0 0" x:Name="Message">!!message</TextBlock>
 
     </Grid>
 </Page>
