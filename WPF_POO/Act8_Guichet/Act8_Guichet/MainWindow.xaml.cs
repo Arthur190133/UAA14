@@ -13,9 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Act8_Guichet.Vues;
-
-
-
+using Act8_Guichet.Classes;
 
 namespace Act8_Guichet
 {
@@ -25,12 +23,26 @@ namespace Act8_Guichet
     public partial class MainWindow : Window
     {
 
-
+        public Personne CurrentPersonne;
 
         public MainWindow()
         {
             InitializeComponent();
+            UpdateUserStatus();
+
             main.Content = new Login();
+        }
+
+        public void UpdateUserStatus()
+        {
+            if (CurrentPersonne != null)
+            {
+                UserStatus.Text = "UserStatus:" + CurrentPersonne.Name ;
+            }
+            else
+            {
+                UserStatus.Text = "UserStatus:Not connected";
+            }
         }
 
     }

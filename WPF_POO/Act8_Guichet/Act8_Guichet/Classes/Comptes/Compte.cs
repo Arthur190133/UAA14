@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Act8_Guichet.Classes.Personnes;
+using Act8_Guichet.Classes;
 
 namespace Act8_Guichet.Classes.Comptes
 {

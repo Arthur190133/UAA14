@@ -17,6 +17,7 @@
             <Button Click="LoginButton">Login</Button>
         </WrapPanel>
         <TextBlock Margin="0 20 0 0" x:Name="Message">!!message</TextBlock>
+ 
 
     </Grid>
 </Page>

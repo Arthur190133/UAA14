@@ -12,8 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Act8_Guichet.Classes.Comptes;
-using Act8_Guichet.Classes.Personnes;
+using Act8_Guichet.Classes;
 using Act8_Guichet.Config;
 using Act8_Guichet.Models;
 using System.Data;
@@ -25,29 +24,22 @@ namespace Act8_Guichet.Vues
     /// </summary>
     public partial class Banque : Page
     {
-        Personne personne;
-        Compte_epargne OwnCompteEpargne;
-        Compte_courant OwnCompteCourant;
+        Compte_epargne[] OwnComptseEpargnes;
+        Compte_courant[] OwnComptesCourants;
         Database database;
-        int CurrentUserId = 1;
 
         public Banque()
         {
             InitializeComponent();
             database = new Database();
 
-            personne = new Personne();
-            OwnCompteEpargne = new Compte_epargne(0, "1234", personne, DateTime.Now, 150);
-            OwnCompteCourant = new Compte_courant(0, 150, "1235", personne, DateTime.Now, 150);
             InitializeComponent();
-            UpdateEpargneUI();
+            //UpdateEpargneUI();
 
 
-            Comptes_courants comptesCourants = new Comptes_courants(database.Connexion()); //listComptesEpargnes
-            Comptes_epargnes comptesEpargnes = new Comptes_epargnes(database.Connexion());
-            listComptesCourants.ItemsSource = comptesCourants.readOwn(CurrentUserId).AsDataView();
+            /*listComptesCourants.ItemsSource = comptesCourants.readOwn(CurrentUserId).AsDataView();
             listComptesEpargnes.ItemsSource = comptesEpargnes.readOwn(CurrentUserId).AsDataView();
-            listVirementComptesCourants.ItemsSource = comptesCourants.readOwn(CurrentUserId).AsDataView();
+            listVirementComptesCourants.ItemsSource = comptesCourants.readOwn(CurrentUserId).AsDataView();*/
         }
 
 
@@ -56,17 +48,17 @@ namespace Act8_Guichet.Vues
 
         }
 
-        private void UpdateEpargneUI()
+        private void UpdateEpargneUI(Compte_epargne compte)
         {
-            soldeEpargne.Text = OwnCompteEpargne.Money.ToString();
+            soldeEpargne.Text = compte.Money.ToString();
             EpargneAjoutFond.Text = "0";
             EpargneRetireFond.Text = "0";
             EpargneVirementFond.Text = "0";
         }
 
-        private void UpdateCourantUI()
+        private void UpdateCourantUI(Compte_courant compte)
         {
-            soldeCourant.Text = OwnCompteCourant.Money.ToString();
+            soldeCourant.Text = compte.Money.ToString();
             CourantAjoutFond.Text = "0";
             CourantRetireFond.Text = "0";
             CourantVirementFond.Text = "0";

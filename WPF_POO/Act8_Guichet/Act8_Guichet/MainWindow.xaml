@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock>La BaNquE</TextBlock>
+        <TextBlock x:Name="UserStatus" HorizontalAlignment="Right" >UserStatus:!!Unknown</TextBlock>
         <Frame Margin="60 60 60 60" Grid.Row ="1" Grid.RowSpan="4" Grid.ColumnSpan="2" Grid.Column="0" x:Name="main" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

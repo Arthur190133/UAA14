@@ -45,7 +45,7 @@ namespace Act8_Guichet.Models
 
         public DataTable login(string name, string password)
         {
-            string query = "SELECT * FROM " + _table + "WHERE Name = " + name + " AND Password = " + password;
+            string query = "SELECT * FROM " + _table + " WHERE Name = '" + name + "' AND Password = '" + password + "'";
             return SendRequest(query);
         }
     }
