@@ -27,6 +27,7 @@ namespace Act8_Guichet.Vues
         Compte_epargne[] OwnComptseEpargnes;
         Compte_courant[] OwnComptesCourants;
         Database database;
+        MainWindow window = (Act8_Guichet.MainWindow)App.Current.MainWindow;
 
         public Banque()
         {
@@ -34,6 +35,7 @@ namespace Act8_Guichet.Vues
             database = new Database();
 
             InitializeComponent();
+            UpdateComptes();
             //UpdateEpargneUI();
 
 
@@ -46,6 +48,16 @@ namespace Act8_Guichet.Vues
         private void courantAjoutFond(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void UpdateComptes()
+        {
+            Comptes_epargnes epargne = new Comptes_epargnes(database.Connexion());
+            Comptes_courants courant = new Comptes_courants(database.Connexion());
+
+            listComptesCourants.ItemsSource = courant.readOwn(window.CurrentPersonne.Id).AsDataView();
+            listComptesEpargnes.ItemsSource = epargne.readOwn(window.CurrentPersonne.Id).AsDataView();
+            //listVirementComptesCourants.ItemsSource = comptesCourants.readOwn(CurrentUserId).AsDataView();
         }
 
         private void UpdateEpargneUI(Compte_epargne compte)
@@ -66,10 +78,20 @@ namespace Act8_Guichet.Vues
 
         private void epargneAjoutFond(object sender, RoutedEventArgs e)
         {
-            if (CheckIfIsNumber(EpargneAjoutFond.Text))
+            DataRowView selectedItem = listComptesEpargnes.SelectedItem as DataRowView;
+
+            if (CheckIfIsNumber(EpargneAjoutFond.Text) && selectedItem != null)
             {
-                OwnCompteEpargne.AddMoney(float.Parse(EpargneAjoutFond.Text));
-                UpdateEpargneUI();
+                
+                int id = int.Parse(selectedItem["Id"].ToString());
+                Comptes_epargnes compte = new Comptes_epargnes(database.Connexion());
+                compte.UpdateMoney(id, float.Parse(EpargneAjoutFond.Text));
+                DataTable data = compte.readById(id);
+
+                Compte_epargne compteEpargne = new Compte_epargne(1, data.Rows[0]["Id"].ToString(), window.CurrentPersonne, (DateTime)data.Rows[0]["CreationDate"], float.Parse((data.Rows[0]["Money"].ToString())));
+
+                compteEpargne.AddMoney(float.Parse(EpargneAjoutFond.Text));
+                UpdateEpargneUI(compteEpargne);
             }
         }
 
@@ -80,19 +102,28 @@ namespace Act8_Guichet.Vues
 
         private void epargneRetireFond(object sender, RoutedEventArgs e)
         {
-            if (CheckIfIsNumber(EpargneRetireFond.Text))
+            DataRowView selectedItem = listComptesEpargnes.SelectedItem as DataRowView;
+
+            if (CheckIfIsNumber(EpargneRetireFond.Text) && selectedItem != null)
             {
-                OwnCompteEpargne.RemoveMoney(float.Parse(EpargneRetireFond.Text));
-                UpdateEpargneUI();
+
+                int id = int.Parse(selectedItem["Id"].ToString());
+                Comptes_epargnes compte = new Comptes_epargnes(database.Connexion());
+                DataTable data = compte.readById(id);
+                Compte_epargne compteEpargne = new Compte_epargne(1, data.Rows[0]["Id"].ToString(), window.CurrentPersonne, (DateTime)data.Rows[0]["CreationDate"], float.Parse((data.Rows[0]["Money"].ToString())));
+
+                compteEpargne.RemoveMoney(float.Parse(EpargneRetireFond.Text));
+                UpdateEpargneUI(compteEpargne);
             }
+
         }
 
         private void epargneVirementFond(object sender, RoutedEventArgs e)
         {
             if (CheckIfIsNumber(EpargneVirementFond.Text))
             {
-                OwnCompteEpargne.Retrait(float.Parse(EpargneVirementFond.Text), null);
-                UpdateEpargneUI();
+                //OwnCompteEpargne.Retrait(float.Parse(EpargneVirementFond.Text), null);
+                //UpdateEpargneUI();
             }
         }
     }

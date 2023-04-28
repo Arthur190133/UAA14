@@ -45,7 +45,7 @@ namespace Act8_Guichet.Vues
             if(Personne.Rows.Count > 0)
             {
                 Message.Text = "Welcome " + Personne.Rows[0]["Name"].ToString();
-                System.Threading.Thread.Sleep(4000);
+                //System.Threading.Thread.Sleep(4000);
                 window.CurrentPersonne = new Personne(Personne.Rows[0]["Name"].ToString(), Personne.Rows[0]["LastName"].ToString(), int.Parse(Personne.Rows[0]["Id"].ToString()), (DateTime)Personne.Rows[0]["BirthDate"]);
                 window.UpdateUserStatus();
                 window.main.Content = new Banque();

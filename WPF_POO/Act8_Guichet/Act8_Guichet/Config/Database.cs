@@ -13,7 +13,7 @@ namespace Act8_Guichet.Config
         private readonly string database = "guichet";
         private readonly string port = "3306";
         private readonly string username = "root";
-        private readonly string password = "";
+        private readonly string password = "root";
         private readonly string convertDateTime = "True";
 
         private MySqlConnection _connexion;
