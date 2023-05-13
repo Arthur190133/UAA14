@@ -9,12 +9,12 @@ namespace Act8_Guichet.Classes.Comptes
 {
     abstract class Compte
     {
-        private string _id;
+        private int _id;
         private Personne _owner;
         private DateTime _creationDate;
         private float _money;
 
-        public string Id
+        public int Id
         {
             get
             {
@@ -66,7 +66,7 @@ namespace Act8_Guichet.Classes.Comptes
             _money += money;
         }
 
-        public abstract bool Retrait(float monant, Compte compte);
+        public abstract void Retrait(float monant, Compte compte);
     }
 
 

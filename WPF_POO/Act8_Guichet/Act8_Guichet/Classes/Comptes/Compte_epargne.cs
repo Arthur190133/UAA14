@@ -12,7 +12,7 @@ namespace Act8_Guichet.Classes
         private float _taux;
         
 
-        public Compte_epargne(float taux, string id, Personne personne, DateTime creationDate, float money)
+        public Compte_epargne(float taux, int id, Personne personne, DateTime creationDate, float money)
         {
             Id = id;
             Owner = personne;
@@ -21,41 +21,20 @@ namespace Act8_Guichet.Classes
             _taux = taux;
         }
 
-        public override bool Retrait(float montant, Compte compte)
+        public float Taux
         {
-            if (montant > (Money / 2))
-            {
-                return false;
-            }
-            else
-            {
-                float cache_removed_money = Money - montant;
-                RemoveMoney(cache_removed_money);
-                
-                // Verifier si compte est compteEpargne
-                if(compte is Compte_epargne)
-                {
-                    if (CheckIfCanSendMoney((Compte_epargne)compte))
-                    {
-                        compte.AddMoney(cache_removed_money);
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-                else
-                {
-                    return false;
-                }
-                //AddMoney(cache_removed_money);
-                return true;
-            }
+            get { return _taux; }
+            set { _taux = value; }
         }
 
-        private bool CheckIfCanSendMoney(Compte_epargne compte)
+        public override void Retrait(float montant, Compte compte)
         {
-            return Owner == compte.Owner;
+            if (!(montant > (Money / 2)))
+            {
+                RemoveMoney(montant);
+
+                compte.AddMoney(montant);
+            }
         }
     }
 

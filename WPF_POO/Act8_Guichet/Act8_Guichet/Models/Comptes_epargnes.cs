@@ -11,7 +11,7 @@ namespace Act8_Guichet.Models
     internal class Comptes_epargnes
     {
         private MySqlConnection _connexion;
-        private readonly string _table = "Comptes_courants";
+        private readonly string _table = "Comptes_epargnes";
 
         public Comptes_epargnes(MySqlConnection database)
         {
@@ -53,6 +53,7 @@ namespace Act8_Guichet.Models
         {
             string query = "UPDATE " + _table + " SET Money = " + money + " WHERE Id = " + id;
             SendRequest(query);
+            Console.WriteLine(money.ToString() + "has been added");
         }
     }
 }

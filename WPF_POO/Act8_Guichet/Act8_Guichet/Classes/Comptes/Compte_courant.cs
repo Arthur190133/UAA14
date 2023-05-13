@@ -13,7 +13,7 @@ namespace Act8_Guichet.Classes
         private int _maxDecouvert;
         
 
-        public Compte_courant(double number, int maxDecouvert, string id, Personne personne, DateTime creationDate, float money)
+        public Compte_courant(double number, int maxDecouvert, int id, Personne personne, DateTime creationDate, float money)
         {
             Id = id;
             Owner = personne;
@@ -23,17 +23,24 @@ namespace Act8_Guichet.Classes
             _number = number;
         }
 
-
-        public override bool Retrait(float montant, Compte compte)
+        public int MaxDecouvert
         {
-            if(montant > Money && (Money - montant) < _maxDecouvert)
-            {
-                return false;
-            }
-            else
+            get { return _maxDecouvert; }
+            set { _maxDecouvert = value; }
+        }
+
+        public double Number
+        {
+            get { return _number; }
+            set { _number = value; }
+        }
+
+
+        public override void Retrait(float montant, Compte compte)
+        {
+            if(!(montant > Money && (Money - montant) < _maxDecouvert))
             {
                 RemoveMoney(Money - montant);
-                return true;
             }
         }
     }

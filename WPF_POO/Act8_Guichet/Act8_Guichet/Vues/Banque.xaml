@@ -10,9 +10,10 @@
 
     <Grid Background="white">
         <WrapPanel>
+            <TextBlock x:Name="test">!!test</TextBlock>
             <WrapPanel Orientation="Vertical">
                 <TextBlock>Vos comptes épargnes</TextBlock>
-                <ListBox x:Name="listComptesEpargnes" Grid.Row="3" Grid.Column="1">
+                <ListBox x:Name="listComptesEpargnes" Grid.Row="3" Grid.Column="1" SelectionChanged="listComptesEpargnes_SelectionChanged">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding CompteId}" />
@@ -24,28 +25,29 @@
                     <TextBlock x:Name="soldeEpargne">!!solde_epargne</TextBlock>
                 </WrapPanel>
                 <WrapPanel>
+                    <TextBlock>Taux :</TextBlock>
+                    <TextBlock x:Name="tauxeEpargne">!!taux_epargne</TextBlock>
+                </WrapPanel>
+                <WrapPanel>
                     <Button Click="epargneAjoutFond">Ajouter Fond</Button>
-                    <TextBox x:Name="EpargneAjoutFond" Width="50">0</TextBox>
-                </WrapPanel>
-                <WrapPanel>
                     <Button Click="epargneRetireFond">Retirer Fond</Button>
-                    <TextBox x:Name="EpargneRetireFond" Width="50">0</TextBox>
+                    <Button Click="epargneVirementFond">Virement Fond</Button>
                 </WrapPanel>
                 <WrapPanel>
-                    <Button Click="epargneVirementFond">Virement Fond</Button>
-                    <TextBox x:Name="EpargneVirementFond" Width="50">0</TextBox>
-                    <ListBox x:Name="listComptesCourants" Grid.Row="3" Grid.Column="1">
+                    <ListBox x:Name="listComptesVirement" Grid.Row="3" Grid.Column="1" SelectionChanged="listComptesVirement_SelectionChanged">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding CompteId}" />
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
+                    <TextBox x:Name="Fond" Width="50">0</TextBox>
                 </WrapPanel>
+                
             </WrapPanel>
             <WrapPanel Orientation="Vertical">
                 <TextBlock>Vos comptes courants</TextBlock>
-                <ListBox x:Name="listVirementComptesCourants" Grid.Row="3" Grid.Column="1">
+                <ListBox SelectionChanged="listComptesCourants_SelectionChanged" x:Name="listComptesCourants" Grid.Row="3" Grid.Column="1">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding CompteId}" />
@@ -57,18 +59,23 @@
                     <TextBlock x:Name="soldeCourant">!!solde_courant</TextBlock>
                 </WrapPanel>
                 <WrapPanel>
+                    <TextBlock>Max decouvert :</TextBlock>
+                    <TextBlock x:Name="maxDecouvertCourant">!!maxDecouvert_courant</TextBlock>
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock>Number :</TextBlock>
+                    <TextBlock x:Name="numberCourant">!!number_courant</TextBlock>
+                </WrapPanel>
+                <WrapPanel>
                     <Button Click="courantAjoutFond">Ajouter Fond</Button>
-                    <TextBox x:Name="CourantAjoutFond" Width="50">0</TextBox>
+                    <Button Click="courantRetireFond">Retirer Fond</Button>
                 </WrapPanel>
                 <WrapPanel>
-                    <Button>Retirer Fond</Button>
-                    <TextBox x:Name="CourantRetireFond" Width="50">0</TextBox>
-                </WrapPanel>
-                <WrapPanel>
-                    <Button>Virement Fond</Button>
-                    <TextBox x:Name="CourantVirementFond" Width="50">0</TextBox>
+                    
+                    <TextBox x:Name="CourantFond" Width="50">0</TextBox>
                 </WrapPanel>
             </WrapPanel>
         </WrapPanel>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="messageError" Foreground="Red"></TextBlock>
     </Grid>
 </Page>

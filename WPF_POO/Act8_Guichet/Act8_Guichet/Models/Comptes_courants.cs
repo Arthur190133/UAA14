@@ -48,6 +48,13 @@ namespace Act8_Guichet.Models
             string query = "SELECT * FROM " + _table + " WHERE PersonneId = " + Id;
             return SendRequest(query);
         }
+
+        public void UpdateMoney(int id, float money)
+        {
+            string query = "UPDATE " + _table + " SET Money = " + money + " WHERE Id = " + id;
+            SendRequest(query);
+            Console.WriteLine(money.ToString() + "has been added");
+        }
     }
 }
 
